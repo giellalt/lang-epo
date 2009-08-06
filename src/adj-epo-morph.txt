@@ -1,0 +1,8 @@
+LEXICON ADER
+ +Adj+Dim:et ASUF ;
+ +Adj+Aug:eg ASUF ;
+ +Adj:       ASUF ;
+ +Adj+Nize:ec     OSUF ;   
+   
+LEXICON ASUF
+ +Asuff:a PL ;
