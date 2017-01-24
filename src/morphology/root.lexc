@@ -1,0 +1,52 @@
+Multichar_Symbols
+
+! POS
++N +V +A 
++Adv +CC +CS +Interj +Pron +Num
+
+! Verbal MSP
++Prs +Prt +Fut +Cond
++Inf
+
+! Nominal MSP
++Sg +Pl
++Nom +Acc
++Ord
+
++Aug  ! for augmentative (eg)
++Dim  ! for diminutive (et)
++Fem  ! for feminine (in)
++Subj ! for subjunctive (u)
++Cont ! for postverbal -ad
++Caus ! Causative
++Mid  ! Middle
+
+!Prefixes
+Op+   ! for opposite (mal)
+Neg+  ! for negative (ne)
+MF+   ! for male-female (ge)
+
+!Derivasjonssuffiks
+ +Nize
+ +Nsuff
+ +Asuff
+
+
+
+! Key lexicon
+
+LEXICON Root
+
+Noun ;
+Verb ;
+Adjective ;
+!Adverb ;
+!Conjunction ;
+!Subjunction ;
+!Interjection ;
+!Numeral ;
+!Pronoun ;
+!Postposition ;
+!Punctuation ;
+
+

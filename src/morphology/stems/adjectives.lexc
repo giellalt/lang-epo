@@ -1,0 +1,17 @@
+LEXICON Adjective
+ bon     	ADER ;
+ long    	ADER ;
+ alt     	ADER ;
+ grav    	ADER ;
+ jung    	ADER ;
+ ideal   	ADER  "ideal"				  ; ! tja
+ luks    	ADER  "luxurious"			  ;
+ blank   	ADER  "white"				  ;
+ nigr    	ADER  "black"				  ;
+ liber   	ADER  "free"				  ;
+ evident 	ADER  "obvious"			  ;
+ grandioz	ADER  "sublime/magnificent" ;
+ oportun 	ADER  "convenient"		  ;
+ verd		ADER ;
+ plat		ADER ;
+ san 		ADER ;

@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=epo
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-epo
+Description: Finite-state language processing tools for Esperanto
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
