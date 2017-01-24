@@ -6,3 +6,6 @@ LEXICON ADER
    
 LEXICON ASUF
  +Asuff:a PL ;
+
+LEXICON OSUF
+ +Asuff:o PL ;
