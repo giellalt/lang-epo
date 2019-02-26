@@ -47,6 +47,5 @@ Adjective ;
 !Numeral ;
 !Pronoun ;
 !Postposition ;
-!Punctuation ;
-
-
+Punctuation ;
+Symbols     ;
