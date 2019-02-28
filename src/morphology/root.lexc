@@ -4,6 +4,8 @@ Multichar_Symbols
 +N +V +A 
 +Adv +CC +CS +Interj +Pron +Num
 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+
 ! Verbal MSP
 +Prs +Prt +Fut +Cond
 +Inf
