@@ -1,0 +1,9 @@
+name = "Esperanto"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.eo"
+
+[windows]
+system_product_code = "9DE25003-A6A4-4115-8E2E-5720A6B66E43"
+msoffice_product_code = "C3AB23AA-09BD-4A48-9FDC-CFF4B4403696"
