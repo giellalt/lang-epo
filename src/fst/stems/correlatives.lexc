@@ -1,0 +1,48 @@
+Multichar_Symbols
++Kor !Correlative
+    +Quest  !Question
+    +Indic  !Indication
+    +Indef  !Indefinite
+    +Univ   !Universal
+    +Neg    !Negative
+
+    +Qual   !Quality
+    +Reas   !Reason
+    +Time   !Time
+    +Place  !Place
+    +Mann   !Manner
+    +Assoc  !Association
+    +Thing  !Thing
+    +Amt    !Amount
+    +Indiv  !Individual
+
+
+LEXICON Root
+Kor+head;    !null root for correlatives (korelativoj)
+
+LEXICON Kor+head
++Quest:ki   tail;   !Question
++Indic:ti   tail;   !Indication
++Indef:i    tail;   !Indefinite
++Univ:ĉi    tail;   !Universal
++Neg:neni   tail;   !Negative
+
+!ki      Kor;    !'Question'
+!ti      Kor;    !'Indication'
+!i       Kor;    !'Indefinite'
+!ĉi      Kor;    !'Universal'
+!neni    Kor;    !'Negative'
+
+!LEXICON Kor
+!+Kor: Kor-suff;
+
+LEXICON tail
++Qual:a     #;
++Reas:al    #;
++Time:am    #;
++Place:e    #;
++Mann:el    #;
++Assoc:es   #;
++Thing:o    #;
++Amt:om     #;
++Indiv:u    #;
