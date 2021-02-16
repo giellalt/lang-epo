@@ -7,11 +7,12 @@ LEXICON Verbs
  pens V "think" ; !
  dir  V "say" ; !
  fal  V "fall" ; !
- ir V ;
- ven V ;
+ ir V ; !"go"
+ ven V ; !"come"
  vetur V ;
- parol V ;
- far V ;
+ parol V ; !"speak"
+ far V ; !"do/make"
  raz V ;
- kant V ;
+ kant V ; !"sing"
+ krokodil V; !"(speak one's native language when it is expected you speak in Esperanto)"
  
