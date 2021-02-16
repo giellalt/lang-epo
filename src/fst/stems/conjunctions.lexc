@@ -4,3 +4,10 @@ LEXICON CC
 
 LEXICON Conjunction
 ja CC ;
+kaj CC; !'and'
+sed CC; !'but'
+aŭ CC; !'or'
+nek CC; !'neither/nor'
+do CC; !'so'
+dum CC; !'during/while'
+!krom CC;
