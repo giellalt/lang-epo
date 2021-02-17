@@ -34,58 +34,53 @@ Multichar_Symbols
 
 +Adj !Adjective - also takes number and case
 
-LEXICON R
+! Lexicon containing lexical stems:
+LEXICON Root
+manĝ   R ;!'eat';
+lern   R ;!'learn;
+romp   R ;!'break';
+vol    R ;!'want';
+ŝat   R ;!'like';
+demand R ;!'ask';
+konstru    R ;!'make';
+don    R ;!'give';
+elekt  R ;!'choose';
+vid    R ;!'see';
+leg    R ;!'read';
 
-!from adjectives.lexc, modified
 bon     	R ;
 long    	R ;
 alt     	R ;
 grav    	R ;
 jung    	R ;
-ideal   	R  "ideal"				  ; ! tja
-luks    	R  "luxurious"			  ;
-blank   	R  "white"				  ;
-nigr    	R  "black"				  ;
-liber   	R  "free"				  ;
-evident 	R  "obvious"			  ;
-grandioz	R  "sublime/magnificent" ;
-oportun 	R  "convenient"		  ;
+ideal   	R ;!"ideal"
+luks    	R ;!"luxurious"
+blank   	R ;!"white"
+nigr    	R ;!"black"
+liber   	R ;!"free"
+evident 	R ;!"obvious"
+grandioz	R ;!"sublime/magnificent"
+oportun 	R ;!"convenient"
 verd		R ;
 plat		R ;
 san 		R ;
 
-!from verbs.lexc, modified
- kant   R"sing" ; ! 
- dir    R"say" ; ! 
- vid    R"see" ; ! 
- don    R"give" ; !
- est    R"be" ; !
- pens   R"think" ; !
- dir    R"say" ; !
- fal    R"fall" ; !
- ir     R; !"go"
- ven    R; !"come"
- vetur  R;
- parol  R; !"speak"
- far    R; !"do/make"
- raz    R;
- kant   R; !"sing"
- krokodil   R; !"(speak one's native language when it is expected you speak in Esperanto)"
-
-! from other work, "esperanto.lex
- ! Lexicon containing lexical stems:
-LEXICON Root
- manĝ  R ;!'eat';
- lern   R ;!'learn;
- romp   R ;!'break';
- vol    R ;!'want';
- ŝat   R ;!'like';
- demand R ;!'ask';
- konstru    R ;!'make';
- don    R ;!'give';
- elekt  R ;!'choose';
- vid    R ;!'see';
- leg    R ;!'read';
+kant   R ; !"sing" 
+dir    R ; !"say"
+vid    R ; !"see"
+don    R ; !"give"
+est    R ; !"be"
+pens   R ; !"think"
+dir    R ; !"say"
+fal    R ; !"fall"
+ir     R; !"go"
+ven    R; !"come"
+vetur  R;
+parol  R; !"speak"
+far    R; !"do/make"
+raz    R;
+kant   R; !"sing"
+krokodil   R; !"(speak one's native language when it is expected you speak in Esperanto)"
 
 
 ! Lexicon containing POS tag only:
@@ -112,7 +107,7 @@ LEXICON Number
 
 LEXICON Case
 +Nom:    #; !Nominative
-+Acc:n  #; !Accusative
++Acc:n   #; !Accusative
 
 ! mangx-o-j-n (mangx+R+N+Plu+Acc)
 
@@ -123,3 +118,4 @@ LEXICON Case
 
 !Example: $ echo don+R+N+Plu+Acc | hfst-lookup esperanto.hfst
 !Example to picture: hfst-fst2txt esperanto.hfst | python3 att2dot.py | dot -Tpng -o esperanto.lexc.png
+!\\wsl$\Ubuntu\home\simon\lang-epo\src\fst\stems\roots.lexc
