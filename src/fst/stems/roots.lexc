@@ -36,52 +36,54 @@ Multichar_Symbols
 
 ! Lexicon containing lexical stems:
 LEXICON Root
-manĝ   R ;!'eat';
-lern   R ;!'learn;
-romp   R ;!'break';
-vol    R ;!'want';
-ŝat   R ;!'like';
-demand R ;!'ask';
-konstru    R ;!'make';
-don    R ;!'give';
-elekt  R ;!'choose';
-vid    R ;!'see';
-leg    R ;!'read';
-
-bon     	R ;
-long    	R ;
-alt     	R ;
-grav    	R ;
-jung    	R ;
-ideal   	R ;!"ideal"
-luks    	R ;!"luxurious"
-blank   	R ;!"white"
-nigr    	R ;!"black"
-liber   	R ;!"free"
-evident 	R ;!"obvious"
-grandioz	R ;!"sublime/magnificent"
-oportun 	R ;!"convenient"
-verd		R ;
-plat		R ;
-san 		R ;
-
-kant   R ; !"sing" 
-dir    R ; !"say"
-vid    R ; !"see"
-don    R ; !"give"
-est    R ; !"be"
-pens   R ; !"think"
-dir    R ; !"say"
-fal    R ; !"fall"
-ir     R; !"go"
-ven    R; !"come"
-vetur  R;
-parol  R; !"speak"
-far    R; !"do/make"
-raz    R;
-kant   R; !"sing"
-krokodil   R; !"(speak one's native language when it is expected you speak in Esperanto)"
-
+alt     	R; !"high"
+blank   	R; !"white"
+bon     	R; !"good"
+demand      R; !'ask';
+dev         R; !"need"
+dir         R; !"say"
+don         R; !"give"
+elekt       R; !'choose';
+est         R; !"be"
+evident 	R; !"obvious"
+fal         R; !"fall"
+far         R; !"do/make"
+grandioz	R; !"sublime/magnificent"
+grav    	R; !"serious"
+griz        R; !"gray/grey"
+ideal   	R; !"ideal"
+ir          R; !"go"
+jun         R; !"young"
+jung    	R; !"yoke/hitch/harness"
+kant        R; !"sing"
+kant        R; !"sing"
+kolor       R; !"color" 
+konstru     R; !'make';
+krokodil    R; !"(speak one's native language when it is expected you speak in Esperanto)"
+leg         R; !'read';
+lern        R; !'learn;
+liber   	R; !"free"
+libr        R; !"book"
+long    	R; !"long"
+luks    	R; !"luxurious"
+manĝ        R; !'eat';
+nigr    	R; !"black"
+nom         R; !"name"
+oportun 	R; !"convenient"
+parol       R; !"speak"
+pens        R; !"think"
+plat		R; !"flat/slab/sheet"
+raz         R; !shave"
+romp        R; !'break';
+san 		R; !"health"
+ŝat         R; !'like';
+ven         R; !"come"
+verd		R; !green"
+vetur       R; !"travel/ride"
+vid         R; !"see"
+vid         R; !'see';
+vol         R; !'want';
+!END LEXICON Root
 
 ! Lexicon containing POS tag only:
 LEXICON R
@@ -96,9 +98,9 @@ LEXICON R-pos
 LEXICON V-suff
 +Past:is    #; !Past
 +Pres:as    #; !Present
-+Fut:os #;  !Future
-+Inf:i  #;  !Infinitive
-+Imp:u  #;  !Imperative
++Fut:os     #;  !Future
++Inf:i      #;  !Infinitive
++Imp:u      #;  !Imperative
 
 !Nouns
 LEXICON Number
@@ -109,7 +111,7 @@ LEXICON Case
 +Nom:    #; !Nominative
 +Acc:n   #; !Accusative
 
-! mangx-o-j-n (mangx+R+N+Plu+Acc)
+! manĝ-o-j-n (mangx+R+N+Plu+Acc)
 
 !NEW Words to try:
 !   don+R+N+Plu+Acc (donojn) 'gifts'
