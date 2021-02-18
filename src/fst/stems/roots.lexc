@@ -89,6 +89,7 @@ LEXICON V-suff
 +Fut:os     #;  !Future
 +Inf:i      #;  !Infinitive
 +Imp:u      #;  !Imperative
++Cond:us    #;  !Conditional
 
 !Nouns
 LEXICON Number
