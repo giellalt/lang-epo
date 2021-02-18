@@ -43,6 +43,15 @@ LEXICON tail
 +Place:e    #;
 +Mann:el    #;
 +Assoc:es   #;
-+Thing:o    #;
++Thing:o    Number;
 +Amt:om     #;
-+Indiv:u    #;
++Indiv:u    Number;
+
+!Nouns
+LEXICON Number
++Sing: Case; !Singular
++Plu:j Case; !Plural
+
+LEXICON Case
++Nom:    #; !Nominative
++Acc:n   #; !Accusative

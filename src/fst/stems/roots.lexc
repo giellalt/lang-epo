@@ -91,8 +91,9 @@ LEXICON R
 
 ! Lexicon containing inflectional suffixes and corresponding tags:
 LEXICON R-pos
-+V: V-suff;
-+N:o Number;
++V:     V-suff;
++N:o    Number;
++Adj:a  Number;
 
 !Verbs
 LEXICON V-suff
