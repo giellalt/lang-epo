@@ -1,23 +1,4 @@
-Multichar_Symbols
-+Kor !Correlative
-    +Quest  !Question
-    +Indic  !Indication
-    +Indef  !Indefinite
-    +Univ   !Universal
-    +Neg    !Negative
-
-    +Qual   !Quality
-    +Reas   !Reason
-    +Time   !Time
-    +Place  !Place
-    +Mann   !Manner
-    +Assoc  !Association
-    +Thing  !Thing
-    +Amt    !Amount
-    +Indiv  !Individual
-
-
-LEXICON Root
+LEXICON Kor
 Kor+head;    !null root for correlatives (korelativoj)
 
 LEXICON Kor+head

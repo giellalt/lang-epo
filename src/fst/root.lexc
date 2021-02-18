@@ -1,53 +1,38 @@
 Multichar_Symbols
++R !Root
 
-! POS
-+N +V +A 
-+Adv +CC +CS +Interj +Pron +Num
+!Parts of speech (POS)
++V  !Verb
+    +Past   !Past
+    +Pres   !Present
+    +Fut    !Future
+    +Inf    !Infinitive
+    +Imp    !Imperative
 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Adv !Adverb
 
-! Verbal MSP
-+Prs +Prt +Fut +Cond
-+Inf
++N !Noun
++Pronoun !Pronoun
+    +Sing   ! Singular
+    +Plu    !Plural
+        +Nom !Nominative
+        +Acc !Accusative
 
-! Nominal MSP
-+Sg +Pl
-+Nom +Acc
-+Ord
++Adj !Adjective - also takes number and case
 
-+Aug  ! for augmentative (eg)
-+Dim  ! for diminutive (et)
-+Fem  ! for feminine (in)
-+Subj ! for subjunctive (u)
-+Cont ! for postverbal -ad
-+Caus ! Causative
-+Mid  ! Middle
++Kor !Correlative
+    +Quest  !Question
+    +Indic  !Indication
+    +Indef  !Indefinite
+    +Univ   !Universal
+    +Neg    !Negative
 
-!Prefixes
-Op+   ! for opposite (mal)
-Neg+  ! for negative (ne)
-MF+   ! for male-female (ge)
-
-!Derivasjonssuffiks
- +Nize
- +Nsuff
- +Asuff
-
-
-
-! Key lexicon
-
-LEXICON Root
-
-Noun ;
-Verbs ;
-Adjective ;
-!Adverb ;
-!Conjunction ;
-!Subjunction ;
-!Interjection ;
-!Numeral ;
-!Pronoun ;
-!Postposition ;
-Punctuation ;
-Symbols     ;
+    +Qual   !Quality
+    +Reas   !Reason
+    +Time   !Time
+    +Place  !Place
+    +Mann   !Manner
+    +Assoc  !Association
+    +Thing  !Thing
+    +Amt    !Amount
+    +Indiv  !Individual
