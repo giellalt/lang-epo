@@ -1,9 +1,6 @@
 LEXICON Pronoun 
 
 Personal ;
-Demonstrative ;
-Reflexive ;
-Possessive;
 
 LEXICON Personal
 mi Possessive; !'1st person singular'
@@ -28,9 +25,3 @@ LEXICON Number
 LEXICON Case
 +Nom:    #; !Nominative
 +Acc:n   #; !Accusative
-
-LEXICON Demonstrative
-K ;
-
-LEXICON Reflexive
-K ;
