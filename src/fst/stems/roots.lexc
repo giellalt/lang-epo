@@ -18,10 +18,13 @@ LEXICON Root
 alt     	R; !"high"
 blank   	R; !"white"
 bon     	R; !"good"
+cel         R; !"target/goal"
+ĉiel        R; !"heaven"
 demand      R; !'ask';
 dev         R; !"need"
 dir         R; !"say"
 don         R; !"give"
+dorm        R; !"sleep"
 elekt       R; !'choose';
 est         R; !"be"
 evident 	R; !"obvious"
@@ -30,13 +33,16 @@ far         R; !"do/make"
 grandioz	R; !"sublime/magnificent"
 grav    	R; !"serious"
 griz        R; !"gray/grey"
+ĝoj         R; !"joy/enjoy/rejoice"
 ideal   	R; !"ideal"
 ir          R; !"go"
 jun         R; !"young"
 jung    	R; !"yoke/hitch/harness"
+ĵingl       R; !"jingle"
 kant        R; !"sing"
 kant        R; !"sing"
 kolor       R; !"color" 
+kon         R; !'know'
 konstru     R; !'make';
 krokodil    R; !"(speak one's native language when it is expected you speak in Esperanto)"
 leg         R; !'read';
@@ -56,12 +62,14 @@ raz         R; !shave"
 romp        R; !'break';
 san 		R; !"health"
 ŝat         R; !'like';
+romp        R; !'break'
 ven         R; !"come"
 verd		R; !green"
 vetur       R; !"travel/ride"
 vid         R; !"see"
 vid         R; !'see';
 vol         R; !'want';
+zo          R; !'animal'
 !END LEXICON Root
 
 ! Lexicon containing POS tag only:
