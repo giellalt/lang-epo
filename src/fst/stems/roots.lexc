@@ -13,27 +13,6 @@
 !postfixes.lexc 
 !grammatical_endings.lexc (noun endings, adjective endings, adverb endings, verb endings
 
-Multichar_Symbols
-+R !Root
-
-!Parts of speech (POS)
-+V  !Verb
-    +Past   !Past
-    +Pres   !Present
-    +Fut    !Future
-    +Inf    !Infinitive
-    +Imp    !Imperative
-
-+Adv !Adverb
-
-+N !Noun
-    +Sing   ! Singular
-    +Plu    !Plural
-        +Nom !Nominative
-        +Acc !Accusative
-
-+Adj !Adjective - also takes number and case
-
 ! Lexicon containing lexical stems:
 LEXICON Root
 alt     	R; !"high"

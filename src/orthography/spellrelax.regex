@@ -52,6 +52,11 @@ Ö (->) Ø,
 ё (->) е, # Russian long vowel, accept je pro jo
 ы́ (->) ы, # Russian long vowel, accept short
 ю́ (->) ю # Russian long vowel, accept short
+#Esperanto-specific orthographical notation for literoj kun ĉapeloj (letters with hats)
+cx (->) ĉ, gx (->) ĝ, hx (->) ĥ, jx (->) ĵ, sx (->) ŝ, ux (->) ŭ,
+Cx (->) Ĉ, Gx (->) Ĝ, Hx (->) Ĥ, Jx (->) Ĵ, Sx (->) Ŝ, Ux (->) Ŭ,
+ch (->) ĉ, gh (->) ĝ, hh (->) ĥ, jh (->) ĵ, sh (->) ŝ, uh (->) ŭ,
+Ch (->) Ĉ, Gh (->) Ĝ, Hh (->) Ĥ, Jh (->) Ĵ, Sh (->) Ŝ, Uh (->) Ŭ
 ;
 
 # Explanation:
