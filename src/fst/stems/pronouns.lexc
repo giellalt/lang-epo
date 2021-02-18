@@ -3,9 +3,31 @@ LEXICON Pronoun
 Personal ;
 Demonstrative ;
 Reflexive ;
+Possessive;
 
 LEXICON Personal
-K ;
+mi Possessive; !'1st person singular'
+ci Possessive; !'2nd person singular archaic'
+li Possessive; !'3rd person singular male'
+ŝi Possessive; !'3rd person singular female'
+ĝi Possessive; !'3rd person singular neuter'
+ni Possessive; !'1st person plural' 
+vi Possessive; !'2nd person singular/plural'
+ili Possessive; !'3rd person plural'
+si Possessive; !'reflexive'
+oni Possessive; !'general? Like "one" or 3rd singular "they"'
+
+LEXICON Possessive
++Possessive:a Number;
++NonPossessive: Number;
+
+LEXICON Number
++Sing: Case; !Singular
++Plu:j Case; !Plural
+
+LEXICON Case
++Nom:    #; !Nominative
++Acc:n   #; !Accusative
 
 LEXICON Demonstrative
 K ;
