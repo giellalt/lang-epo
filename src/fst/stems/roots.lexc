@@ -14,7 +14,7 @@
 !grammatical_endings.lexc (noun endings, adjective endings, adverb endings, verb endings
 
 ! Lexicon containing lexical stems:
-LEXICON Root
+LEXICON roots
 alt     	R; !"high"
 blank   	R; !"white"
 bon     	R; !"good"
