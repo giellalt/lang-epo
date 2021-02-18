@@ -36,3 +36,10 @@ Multichar_Symbols
     +Thing  !Thing
     +Amt    !Amount
     +Indiv  !Individual
+
+LEXICON Root
+roots ;
+Interjections ;
+Kor ;
+Pronoun ;
+CC ;

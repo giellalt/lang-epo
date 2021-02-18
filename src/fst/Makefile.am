@@ -32,9 +32,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/verbs.lexc       \
 			 stems/conjunctions.lexc  \
 			 stems/interjections.lexc \
-			 stems/prepositions.lexc  \
 			 stems/pronouns.lexc      \
-			 stems/subjunctions.lexc  \
 			 stems/correlatives.lexc  \
 			 stems/roots.lexc
 
