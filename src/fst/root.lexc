@@ -38,9 +38,13 @@ Multichar_Symbols
     +Amt    !Amount
     +Indiv  !Individual
 
++CC     !Conjunction
+
 LEXICON Root
 roots ;
 Interjections ;
 Kor ;
 Pronoun ;
 CC ;
+prefix;
+suffix;
