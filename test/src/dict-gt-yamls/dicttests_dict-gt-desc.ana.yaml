@@ -9,9 +9,13 @@ Config:
 
 Tests:
 
-# Tag tests:
-  G3 - vuorru:
-    vuorru+G3+N+Sg+Gen: vuorru
+  Nom - manĝu:
+    manĝ+R+V+Imp: manĝu
+
+## Tag tests:
+
+#  G3 - vuorru:
+#    vuorru+G3+N+Sg+Gen: vuorru
 
 # Replace with proper data for your language:
 #  G7 - gálli:

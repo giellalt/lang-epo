@@ -3,7 +3,7 @@ LEXICON CC
 +CC: # ;
 
 LEXICON Conjunction
-ja CC ;
+ja CC ; !'affirmation particle'
 kaj CC; !'and'
 sed CC; !'but'
 aŭ CC; !'or'
