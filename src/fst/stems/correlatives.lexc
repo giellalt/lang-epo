@@ -27,3 +27,5 @@ LEXICON tail
 +Thing:o    Number;
 +Amt:om     #;
 +Indiv:u    Number;
+
+!
