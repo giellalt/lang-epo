@@ -17,3 +17,5 @@ oni Possessive; !'general? Like "one" or 3rd singular "they"'
 LEXICON Possessive
 +Possessive:a Number;
 +NonPossessive: Number;
+
+!

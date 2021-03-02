@@ -9,8 +9,11 @@ Config:
 
 Tests:
 
-  Nom - manĝu:
+  Verb - manĝu:
     manĝ+R+V+Imp: manĝu
+  Noun - shouldFail:
+    fail+R+N+Sing+Nom: fail
+
 
 ## Tag tests:
 

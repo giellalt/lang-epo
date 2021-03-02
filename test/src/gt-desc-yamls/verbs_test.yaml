@@ -1,0 +1,18 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+#Tests:
+#  Noun - слово - basic :
+#    слово+N+Sg+Nom: слово>о # this is a comment
+#    слово+N+Pl+Nom: слово>а # test
+
+Tests:
+  Noun - manĝ - eat :
+    manĝ+R+N+Plu+Acc: manĝojn # should pass
+    manĝ+R+V+Past: potato # should not pass

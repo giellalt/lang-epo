@@ -110,3 +110,5 @@ LEXICON Case
 !Example: $ echo don+R+N+Plu+Acc | hfst-lookup esperanto.hfst
 !Example to picture: hfst-fst2txt esperanto.hfst | python3 att2dot.py | dot -Tpng -o esperanto.lexc.png
 !\\wsl$\Ubuntu\home\simon\lang-epo\src\fst\stems\roots.lexc
+
+!
