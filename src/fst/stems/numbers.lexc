@@ -1,0 +1,32 @@
+LEXICON num:
+unu        R; !"one"
+du         R; !"two"
+tri        R; !"three"
+kvar       R; !"four"
+kvin       R; !"five"
+ses        R; !"six"
+sep        R; !"seven"
+ok         R; !"eight"
+naŭ        R; !"nine"
+dek        R; !"ten"
+cent       R; !"hundred"
+mil        R; !"thousand"
+milion     R; !"million"
+
+
+! Needs to handle ordinal numbers (unua, tria, mila)
+!   and these should probably redirect through the Roots, Adjectives for -a
+
+! Note: 11-19 are "dek unu" through "dek naŭ"
+!   20 is "dudek" (du+dek), and 25 is "dudek kvin"
+
+! Needs to redirect du, tri, ... , dek, cent, mil, milliono
+!   with combinations: "dudek" and "kvarmiliono"
+
+
+! Form to be made into tests:
+! (du-naŭ)+(dek) (optional -a for ordinal)
+! (du-dek)+(cent,mil,miliono) (optional -a for ordinal)
+! Tests:
+!!xx € raattâđ:         raattâđ+V+Inf
+!!xx € tridek: num+num #something with tags?

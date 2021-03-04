@@ -15,29 +15,44 @@
 
 ! Lexicon containing lexical stems:
 LEXICON roots
+aktiv       R; !"active"
 alt     	R; !"high"
+april       R; !"April"
+artikol     R; !"article"
+aŭgust      R; !"August (the month)"
 blank   	R; !"white"
 bon     	R; !"good"
+bonven      R; !"welcome"
 cel         R; !"target/goal"
 ĉiel        R; !"heaven"
+decembr     R; !"December"
 demand      R; !'ask';
 dev         R; !"need"
+dimanĉ      R; !"Sunday"
 dir         R; !"say"
 don         R; !"give"
 dorm        R; !"sleep"
 elekt       R; !'choose';
+esperant    R; !"one who hopes, or the Esperanto language"
 est         R; !"be"
 evident 	R; !"obvious"
 fal         R; !"fall"
 far         R; !"do/make"
+feburar     R; !"February"
 grandioz	R; !"sublime/magnificent"
 grav    	R; !"serious"
 griz        R; !"gray/grey"
 ĝoj         R; !"joy/enjoy/rejoice"
+help        R; !"help"
+histor      R; !"history"
 ideal   	R; !"ideal"
 ir          R; !"go"
+januar      R; !"January"
 jun         R; !"young"
 jung    	R; !"yoke/hitch/harness"
+juni        R; !"June"
+juli        R; !"July"
+ĵaud        R; !"Thursday"
 ĵingl       R; !"jingle"
 kant        R; !"sing"
 kant        R; !"sing"
@@ -51,19 +66,30 @@ liber   	R; !"free"
 libr        R; !"book"
 long    	R; !"long"
 luks    	R; !"luxurious"
+lund        R; !"Monday"
+maj         R; !"May (the month)"
 manĝ        R; !'eat';
+mard        R; !"Tuesday"
+mart        R; !"March (the month)"
+merkred     R; !"Wednesday"
 nigr    	R; !"black"
 nom         R; !"name"
+novembr     R; !"November"
+oktobr      R; !"October"
 oportun 	R; !"convenient"
 parol       R; !"speak"
 pens        R; !"think"
 plat		R; !"flat/slab/sheet"
 raz         R; !shave"
+regular     R; !"rule, regulation"
 romp        R; !'break';
+sabat       R; !"Saturday"
 san 		R; !"health"
 ŝat         R; !'like';
+septembr    R; !"September"
 romp        R; !'break'
 ven         R; !"come"
+vendred     R; !"Friday"
 verd		R; !green"
 vetur       R; !"travel/ride"
 vid         R; !"see"
@@ -110,5 +136,11 @@ LEXICON Case
 !Example: $ echo don+R+N+Plu+Acc | hfst-lookup esperanto.hfst
 !Example to picture: hfst-fst2txt esperanto.hfst | python3 att2dot.py | dot -Tpng -o esperanto.lexc.png
 !\\wsl$\Ubuntu\home\simon\lang-epo\src\fst\stems\roots.lexc
+
+! INLINE LEXC TEST:
+
+!!€gt-desc: build (bottom one should fail)
+!!€ konstruu: konstru+R+V+Imp
+!!€ konstruojn: konstru+R+N+Plu+Nom
 
 !

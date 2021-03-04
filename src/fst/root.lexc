@@ -39,6 +39,17 @@ Multichar_Symbols
     +Indiv  !Individual
 
 +CC     !Conjunction
++Num    !Number
+
+!Automatic punctuation tags
+
++CLB
++Err/Orth
++LEFT
++PUNCT
++RIGHT
+
+! end punctuation tags
 
 LEXICON Root
 roots ;
