@@ -6,14 +6,13 @@
 
 # List here (space separated) all test scripts that should be run
 # unconditionally:
-TESTS=tag_test.sh verb_check.yaml
+TESTS=tag_test.sh
 
 # Add your shell scripts for running tests requiring only a generator:
 GENERATION_TESTS_IN=generate-adjective-lemmas.sh.in  \
                     generate-noun-lemmas.sh.in       \
                     generate-propernoun-lemmas.sh.in \
-                    generate-verb-lemmas.sh.in      \
-                    verb_check.yaml
+                    generate-verb-lemmas.sh.in
 
 GENERATION_TESTS=$(basename $(GENERATION_TESTS_IN))
 
