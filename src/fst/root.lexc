@@ -40,6 +40,9 @@ Multichar_Symbols
 
 +CC     !Conjunction
 +Num    !Number
++Adp    !Adposition (preposition or postposition)
++Prefix !Prefix
++Suffix !Suffix
 
 !Automatic punctuation tags
 
@@ -57,5 +60,9 @@ Interjections ;
 Kor ;
 Pronoun ;
 CC ;
-prefix;
-suffix;
+Prefix;
+Suffix;
+Num ;
+Adp ;
+
+

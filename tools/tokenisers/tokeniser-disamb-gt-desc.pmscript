@@ -111,12 +111,26 @@ Define alphabet "a-z"
                |{Š}|{Ž}|{Č}|{Đ}|{Í}|{Ŋ}|{Ň}|{Ŧ}|{Ň}
                | "0-9"
                |{_}|{§}|{°}
+               |{ĉ} 
+               |{Ĉ} 
+               |{ĝ} 
+               |{Ĝ} 
+               |{ĥ}
+               |{Ĥ}
+               |{ĵ} 
+               |{Ĵ}
+               |{ŝ}
+               |{Ŝ}
+               |{ŭ} 
+               |{Ŭ} 
                ;
-Define alphamiddle {'}|{-} ; ! Treat foo-bar as one big unknown, but -foo (or bar-) as two tokens
+Define alphamiddle {-} ; ! Treat foo-bar as one big unknown, but -foo (or bar-) as two tokens
 Define alphaword alphabet+ ( alphamiddle alphabet+ );
 !! TODO: Could use something like this, but built-in's don't include šžđčŋ:
 ! Define MixCase(X) [OptCap(X) | UpCase(X)];
 ! Define alphaword MixCase(alphabet+);
+! NOTE: removed {'} from Define alphamiddle because the terminal vowel in EPO is sometimes replaced
+!   with a '. Ex, "Ho! Mia kor' mortiĝas." ("Oh! My heart is dying.")
 
 
 !!! Unknown handling:

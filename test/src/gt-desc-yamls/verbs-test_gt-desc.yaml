@@ -11,8 +11,9 @@ Config:
 #  Noun - слово - basic :
 #    слово+N+Sg+Nom: слово>о # this is a comment
 #    слово+N+Pl+Nom: слово>а # test
+#    manĝ+R+V+Past: ~potato # should not pass
 
 Tests:
   Noun - manĝ - eat:
     manĝ+R+N+Plu+Acc: manĝojn # should pass
-    manĝ+R+V+Past: potato # should not pass
+    manĝ+R+V+Imp: manĝu # should pass
