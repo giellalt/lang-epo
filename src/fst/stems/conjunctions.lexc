@@ -1,15 +1,9 @@
-
 LEXICON CC
-+CC: # ;
-
-LEXICON Conjunction
-ja CC ; !'affirmation particle'
-kaj CC; !'and'
-sed CC; !'but'
-aŭ CC; !'or'
-nek CC; !'neither/nor'
-do CC; !'so'
-dum CC; !'during/while'
-!krom CC;
-
-!
+ja  #; !'affirmation particle'
+kaj #; !'and'
+sed #; !'but'
+aŭ  #; !'or'
+nek #; !'neither/nor'
+do  #; !'so'
+dum #; !'during/while'
+krom #;

@@ -1,21 +1,21 @@
 LEXICON num:
-unu        R; !"one"
-du         R; !"two"
-tri        R; !"three"
-kvar       R; !"four"
-kvin       R; !"five"
-ses        R; !"six"
-sep        R; !"seven"
-ok         R; !"eight"
-naŭ        R; !"nine"
-dek        R; !"ten"
-cent       R; !"hundred"
-mil        R; !"thousand"
-milion     R; !"million"
+unu        #; !"one"
+du         #; !"two"
+tri        #; !"three"
+kvar       #; !"four"
+kvin       #; !"five"
+ses        #; !"six"
+sep        #; !"seven"
+ok         #; !"eight"
+naŭ        #; !"nine"
+dek        #; !"ten"
+cent       #; !"hundred"
+mil        #; !"thousand"
+milion     #; !"million"
 
 
 ! Needs to handle ordinal numbers (unua, tria, mila)
-!   and these should probably redirect through the Roots, Adjectives for -a
+!   and these should probably redirect through the #oots, Adjectives for -a
 
 ! Note: 11-19 are "dek unu" through "dek naŭ"
 !   20 is "dudek" (du+dek), and 25 is "dudek kvin"
@@ -24,9 +24,14 @@ milion     R; !"million"
 !   with combinations: "dudek" and "kvarmiliono"
 
 
-! Form to be made into tests:
+! Form to be made into tests: 
 ! (du-naŭ)+(dek) (optional -a for ordinal)
 ! (du-dek)+(cent,mil,miliono) (optional -a for ordinal)
-! Tests:
-!!xx € raattâđ:         raattâđ+V+Inf
-!!xx € tridek: num+num #something with tags?
+
+!!! Add second exclamation mark to each test to make it run!
+
+!not ready yet: €gt-desc: numerical tests
+!not ready yet: € tri: tri
+!not ready yet: € kvara: kvar+num+ordinal
+!not ready yet: € tridek: num+num #something with tags?
+
