@@ -1,5 +1,5 @@
 LEXICON Kor
-Kor+head;    !null root for correlatives (korelativoj)
++Kor:   Kor+head;    !null root for correlatives (korelativoj)
 
 LEXICON Kor+head
 +Quest:ki   tail;   !Question
@@ -27,4 +27,9 @@ LEXICON tail
 +Thing:o    Number;
 +Amt:om     #;
 +Indiv:u    Number;
+
+!!€gt-desc: correlative tests
+!!€ kio: ki+Kor+Quest+Thing+Sing+Nom
+!!€ tiujn: ti+Kor+Indic+Indiv+Plu+Acc
+!!€ kies: ki+Kor+Quest+Assoc
 

@@ -27,6 +27,7 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/prefixes.lexc	  \
 			 affixes/suffixes.lexc	  \
+			 stems/articles.lexc	  \
 			 stems/conjunctions.lexc  \
 			 stems/interjections.lexc \
 			 stems/pronouns.lexc      \

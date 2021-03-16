@@ -1,25 +1,25 @@
 Multichar_Symbols
 +R !Root
 
-!Parts of speech (POS)
-+V  !Verb
-    +Past   !Past
-    +Pres   !Present
-    +Fut    !Future
-    +Inf    !Infinitive
-    +Imp    !Imperative
-    +Cond   !Conditional
+    !Parts of speech (POS)
+    +V  !Verb
+        +Past   !Past
+        +Pres   !Present
+        +Fut    !Future
+        +Inf    !Infinitive
+        +Imp    !Imperative
+        +Cond   !Conditional
 
-+Adv !Adverb
+    +Adv !Adverb
 
-+N !Noun
-+Pronoun !Pronoun
-    +Sing   ! Singular
-    +Plu    !Plural
-        +Nom !Nominative
-        +Acc !Accusative
+    +N !Noun
+    +Pronoun !Pronoun
+        +Sing   ! Singular
+        +Plu    !Plural
+            +Nom !Nominative
+            +Acc !Accusative
 
-+Adj !Adjective - also takes number and case
+    +Adj !Adjective - also takes number and case
 
 +Kor !Correlative
     +Quest  !Question
@@ -38,6 +38,7 @@ Multichar_Symbols
     +Amt    !Amount
     +Indiv  !Individual
 
++Art    !Article
 +CC     !Conjunction
 +Num    !Number
 +Adp    !Adposition (preposition or postposition)
@@ -54,15 +55,19 @@ Multichar_Symbols
 
 ! end punctuation tags
 
+!+Foreign
+
 LEXICON Root
 roots ;
 Interjections ;
 Kor ;
 Pronoun ;
+Art;
 CC ;
 Prefix;
 Suffix;
 Num ;
 Adp ;
+!Foreign;
 
 
