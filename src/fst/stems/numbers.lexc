@@ -1,21 +1,24 @@
-LEXICON num:
-unu        #; !"one"
-du         #; !"two"
-tri        #; !"three"
-kvar       #; !"four"
-kvin       #; !"five"
-ses        #; !"six"
-sep        #; !"seven"
-ok         #; !"eight"
-naŭ        #; !"nine"
-dek        #; !"ten"
-cent       #; !"hundred"
-mil        #; !"thousand"
-milion     #; !"million"
+LEXICON Num
++Num:unu        Num-suff; !"one"
++Num:du         Num-suff; !"two"
++Num:tri        Num-suff; !"three"
++Num:kvar       Num-suff; !"four"
++Num:kvin       Num-suff; !"five"
++Num:ses        Num-suff; !"six"
++Num:sep        Num-suff; !"seven"
++Num:ok         Num-suff; !"eight"
++Num:naŭ        Num-suff; !"nine"
++Num:dek        Num-suff; !"ten"
++Num:cent       Num-suff; !"hundred"
++Num:mil        Num-suff; !"thousand"
++Num:milion     Num-suff; !"million"
 
+LEXICON Num-suff
++Ordinal:a      Number; !directs to Number, which then directs to case.
++Cardinal:      #;
 
 ! Needs to handle ordinal numbers (unua, tria, mila)
-!   and these should probably redirect through the #oots, Adjectives for -a
+!   and these should probably redirect through the Num+suffoots, Adjectives for -a
 
 ! Note: 11-19 are "dek unu" through "dek naŭ"
 !   20 is "dudek" (du+dek), and 25 is "dudek kvin"
@@ -30,8 +33,11 @@ milion     #; !"million"
 
 !!! Add second exclamation mark to each test to make it run!
 
-!not ready yet: €gt-desc: numerical tests
-!not ready yet: € tri: tri
+!!€gt-desc: numerical tests
+!!€ tri: tri+Num+Cardinal
+!!€ tria: tri+Num+Ordinal+Sing+Nom
+!!€ triajn: tri+Num+Ordinal+Plu+Acc
+
 !not ready yet: € kvara: kvar+num+ordinal
 !not ready yet: € tridek: num+num #something with tags?
 

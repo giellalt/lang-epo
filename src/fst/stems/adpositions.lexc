@@ -1,13 +1,35 @@
 LEXICON Adp
-en  #;
-de  #;
-kun #;
-por #;
-el  #;
-pri #;
-pro #;
-al  #;
-per #;
-da  #;
-ol  #;
-dum #;
+en  Adp-tag;
+de  Adp-tag;
+kun Adp-tag;
+por Adp-tag;
+el   Adp-tag;
+pri Adp-tag;
+pro Adp-tag;
+al   Adp-tag;
+per Adp-tag;
+da  Adp-tag;
+ol  Adp-tag;
+dum Adp-tag;
+
+! REMOVE THESE NONWORDS FOR TESTING PURPOSES
+! - are 'l's turning to 'v's?!? These are to test edge cases
+il Adp-tag; 
+ul Adp-tag;
+jul Adp-tag;
+kl Adp-tag;
+
+
+
+LEXICON Adp-tag
++Adp: #;
+
+
+!!€gt-desc: various prepositions, postpositions
+!!€  en: en+Adp
+!!€  al: al+Adp
+!!€  ol: ol+Adp
+!!€  ul: ul+Adp
+!!€  jul: jul+Adp
+!!€  kl: kl+Adp
+
