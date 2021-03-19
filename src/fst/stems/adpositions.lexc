@@ -1,35 +1,31 @@
+! Credit to https://blogs.transparent.com/esperanto/keys-to-understanding-esperanto-prepositions/ for reference
 LEXICON Adp
-en  Adp-tag;
-de  Adp-tag;
-kun Adp-tag;
-por Adp-tag;
-el   Adp-tag;
-pri Adp-tag;
-pro Adp-tag;
-al   Adp-tag;
-per Adp-tag;
-da  Adp-tag;
-ol  Adp-tag;
-dum Adp-tag;
+al       Adp+tag; !'to'
+anstataŭ Adp+tag; !'instead of'
+da       Adp+tag; !'of (for quantities)'
+de       Adp+tag; !'of (for possession/belonging)'
+dum      Adp+tag; !'while/during'
+el       Adp+tag; !'out of, made out of'
+en       Adp+tag; !'in'
+ĝis      Adp+tag; !'until'
+inter    Adp+tag; !'between'
+kun      Adp+tag; !'with'
+krom     Adp+tag; !'except'
+ol       Adp+tag; !''
+per      Adp+tag; !'with, through, by means of'
+por      Adp+tag; !'for'
+pri      Adp+tag; !'about'
+pro      Adp+tag; !'because'
+sen      Adp+tag; !'without'
+sub      Adp+tag; !'under'
+sur      Adp+tag; !'on'
 
-! REMOVE THESE NONWORDS FOR TESTING PURPOSES
-! - are 'l's turning to 'v's?!? These are to test edge cases
-il Adp-tag; 
-ul Adp-tag;
-jul Adp-tag;
-kl Adp-tag;
-
-
-
-LEXICON Adp-tag
+LEXICON Adp+tag
 +Adp: #;
 
-
+!Tests:
 !!€gt-desc: various prepositions, postpositions
 !!€  en: en+Adp
 !!€  al: al+Adp
 !!€  ol: ol+Adp
-!!€  ul: ul+Adp
-!!€  jul: jul+Adp
-!!€  kl: kl+Adp
 
