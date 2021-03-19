@@ -1,9 +1,13 @@
 LEXICON CC
-ja  #; !'affirmation particle'
-kaj #; !'and'
-sed #; !'but'
-aŭ  #; !'or'
-nek #; !'neither/nor'
-do  #; !'so'
-dum #; !'during/while'
-krom #;
+
+ja   CC-tag; !'affirmation particle'
+kaj  CC-tag; !'and'
+sed  CC-tag; !'but'
+aŭ   CC-tag; !'or'
+nek  CC-tag; !'neither/nor'
+do   CC-tag; !'so'
+dum  CC-tag; !'during/while'
+krom CC-tag; !'against'
+
+LEXICON CC-tag
++CC:    #;
