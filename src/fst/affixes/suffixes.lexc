@@ -1,27 +1,33 @@
+LEXICON Noun_symbols_possibly_inflected ! ad hoc to make compile.
+# ;
+
+LEXICON Noun_symbols_never_inflected ! ad hoc to make compile.
+# ;
+
 LEXICON Suffix !add links to roots and so forth
-ad      ;!'
-aĵ      ;!'
-ec      ;!
-ul      ;!'
-ar      ;!'
-ej      ;!'place'
-er      ;!'
-estr    ;!'boss/leader'
-id      ;!'child of'
-il      ;!'tool'
-in      ;!'female'
-ing     ;!'
-ism     ;!'
-ist     ;!'
-uj      ;!'
-ebl     ;!'
-em      ;!'
-en      ;!'
-end     ;!'
-ind     ;!'
-ig      ;!'causative'
-iĝ      ;!'ergative'
-et      ;!'
-an      ;!'
+ad      #;!'
+aĵ      #;!'
+ec      #;!
+ul      #;!'
+ar      #;!'
+ej      #;!'place'
+er      #;!'
+estr    #;!'boss/leader'
+id      #;!'child of'
+il      #;!'tool'
+in      #;!'female'
+ing     #;!'
+ism     #;!'
+ist     #;!'
+uj      #;!'
+ebl     #;!'
+em      #;!'
+en      #;!'
+end     #;!'
+ind     #;!'
+ig      #;!'causative'
+iĝ      #;!'ergative'
+et      #;!'
+an      #;!'
 
 
