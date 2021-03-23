@@ -1,0 +1,15 @@
+
+! Esperanto article
+
+LEXICON Art
+la arttag ; !"definite article (the)"
+l' arttag ; !"abbreviated definite article (the)"
+
+
+LEXICON arttag
++Art: # ;
+
+!Tests:
+!!€gt-desc: gloss - la, 'the'
+!!€ la: la+Art
+!!€ l': l'+Art

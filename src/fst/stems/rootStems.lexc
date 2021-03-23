@@ -14,7 +14,7 @@
 !grammatical_endings.lexc (noun endings, adjective endings, adverb endings, verb endings
 
 ! Lexicon containing lexical stems:
-LEXICON roots
+LEXICON Stems
 
 !AAA
 afrik       R; !"African"
@@ -100,7 +100,7 @@ franc       R; !'French'
 fru         R; !'early'
 
 !GGG
-german      R; !'German'
+germani     R; !'German'
 grandioz	R; !"sublime/magnificent"
 grand       R; !"large, grand"
 grav    	R; !"serious"
@@ -194,6 +194,8 @@ membr       R; !'member'
 merkred     R; !"Wednesday"
 metro       R; !"metro (nominative 'metroo')""
 maten       R; !'morning'
+milard      R; !"billion"
+milion      R; !"million"
 milit       R; !"war"
 modern      R; !'modern'
 mond        R; !"world"
@@ -293,7 +295,7 @@ vort        R; !'word'
 
 !ZZZ
 zo          R; !'animal'
-!END LEXICON Root
+!END LEXICON Stem
 
 ! Lexicon containing POS tag only:
 LEXICON R

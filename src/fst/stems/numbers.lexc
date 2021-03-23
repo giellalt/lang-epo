@@ -1,43 +1,57 @@
 LEXICON Num
-+Num:unu        Num-suff; !"one"
-+Num:du         Num-suff; !"two"
-+Num:tri        Num-suff; !"three"
-+Num:kvar       Num-suff; !"four"
-+Num:kvin       Num-suff; !"five"
-+Num:ses        Num-suff; !"six"
-+Num:sep        Num-suff; !"seven"
-+Num:ok         Num-suff; !"eight"
-+Num:naŭ        Num-suff; !"nine"
-+Num:dek        Num-suff; !"ten"
-+Num:cent       Num-suff; !"hundred"
-+Num:mil        Num-suff; !"thousand"
-+Num:milion     Num-suff; !"million"
+unu        Num-suff; !"one"
+du         Multiplier; !"two"
+tri        Multiplier; !"three"
+kvar       Multiplier; !"four"
+kvin       Multiplier; !"five"
+ses        Multiplier; !"six"
+sep        Multiplier; !"seven"
+ok         Multiplier; !"eight"
+naŭ        Multiplier; !"nine"
+dek        Multiplier; !"ten"
+cent       Multiplier; !"hundred"
+mil        Multiplier; !"thousand"
+
+milion     Multiplier; !"million"
+miliard    Multiplier; !"billion"
+
+LEXICON Multiplier
+           Num-suff; !"no multiplier"
+dek        Num-suff; !"ten"
+cent       Num-suff; !"hundred"
+mil        Num-suff; !"thousand"
+
+milion     Num-suff; !"million"
+miliard    Num-suff; !"billion"
 
 LEXICON Num-suff
-+Ordinal:a      Number; !directs to Number, which then directs to case.
++Ordinal:a      Number; !directs to Lexicon Number, which then directs to Lexicon Case.
 +Cardinal:      #;
 
-! Needs to handle ordinal numbers (unua, tria, mila)
-!   and these should probably redirect through the Num+suffoots, Adjectives for -a
-
-! Note: 11-19 are "dek unu" through "dek naŭ"
+! NOTE: 11-19 are "dek unu" through "dek naŭ"
 !   20 is "dudek" (du+dek), and 25 is "dudek kvin"
-
+!
+! NEEDED UPDATES:
 ! Needs to redirect du, tri, ... , dek, cent, mil, milliono
-!   with combinations: "dudek" and "kvarmiliono"
+!   with combinations: "dudek" and "kvarmiliono" but
+!   without repeating sequences like 'dekdek' or 'milmil'
+!
+! Additionally, 'miliono' and 'miliardo' are nouns (end with -o by default)
+!   and so should NOT allow bare forms 'milion' and 'miliard' like other numbers would.
+!   Getting this wrong stops test for "trimiliono" from passing
 
 
 ! Form to be made into tests: 
 ! (du-naŭ)+(dek) (optional -a for ordinal)
 ! (du-dek)+(cent,mil,miliono) (optional -a for ordinal)
 
-!!! Add second exclamation mark to each test to make it run!
-
+!Tests:
 !!€gt-desc: numerical tests
-!!€ tri: tri+Num+Cardinal
-!!€ tria: tri+Num+Ordinal+Sing+Nom
-!!€ triajn: tri+Num+Ordinal+Plu+Acc
-
-!not ready yet: € kvara: kvar+num+ordinal
-!not ready yet: € tridek: num+num #something with tags?
+!!€ tri: tri+Cardinal
+!!€ tria: tri+Ordinal+Sing+Nom
+!!€ triajn: tri+Ordinal+Plu+Acc
+!!€ tridek: tridek+Cardinal
+!!€ trimil: trimil+Cardinal
+!!€ trimiliono: trimilion+Ordinal
+!!€ trimilionajn: trimilion+Ordinal+Plu+Acc
 

@@ -1,9 +1,6 @@
-LEXICON Interjection
-aj      Interjection+tag; 
-ho      Interjection+tag; !'oh!'
-saluton Interjection+tag; !'hello'
-sal     Interjection+tag; !'hi'
-ĝis     Interjection+tag; !"goodbye"
-
-LEXICON Interjection+tag
-+Interjection:  #;
+LEXICON Interjections
+aj      #;!'ay!'
+ho      #;!'oh!'
+saluton #;!'hello'
+sal     #;!'hi'
+ĝis     #;!'goodbye'

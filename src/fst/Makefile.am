@@ -33,7 +33,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/pronouns.lexc      \
 			 stems/correlatives.lexc  \
 			 stems/numbers.lexc		  \
-			 stems/roots.lexc		  \
+			 stems/rootStems.lexc		  \
 			 stems/adpositions.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
