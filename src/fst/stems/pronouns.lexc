@@ -1,20 +1,25 @@
-LEXICON Pronoun 
+LEXICON Pronoun
+mi  PronTag; !'1st person singular'
+ci  PronTag; !'2nd person singular archaic'
+li  PronTag; !'3rd person singular male'
+ŝi  PronTag; !'3rd person singular female'
+ĝi  PronTag; !'3rd person singular neuter'
+ni  PronTag; !'1st person plural' 
+vi  PronTag; !'2nd person singular/plural'
+ili PronTag; !'3rd person plural'
+si  PronTag; !'reflexive'
+oni PronTag; !'general? Like "one" or 3rd singular "they"'
 
-Personal ;
-
-LEXICON Personal
-mi Possession; !'1st person singular'
-ci Possession; !'2nd person singular archaic'
-li Possession; !'3rd person singular male'
-ŝi Possession; !'3rd person singular female'
-ĝi Possession; !'3rd person singular neuter'
-ni Possession; !'1st person plural' 
-vi Possession; !'2nd person singular/plural'
-ili Possession; !'3rd person plural'
-si Possession; !'reflexive'
-oni Possession; !'general? Like "one" or 3rd singular "they"'
+LEXICON PronTag
++Pronoun:   Possession;
 
 LEXICON Possession
-+Possessive:a Number;
++Possessive:a   Number;
 +NonPossessive: Number;
+
+!Tests:
+!!€gt-desc: pronoun tests
+!!€ mi: mi+Pronoun+NonPossessive+Sing+Nom
+!!€ ĝia: ĝi+Pronoun+Possessive+Sing+Nom
+!!€ iliajn: ili+Pronoun+Possessive+Plu+Acc
 

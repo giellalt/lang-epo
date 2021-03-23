@@ -4,16 +4,20 @@ LEXICON Noun_symbols_possibly_inflected ! ad hoc to make compile.
 LEXICON Noun_symbols_never_inflected ! ad hoc to make compile.
 # ;
 
+!!! INCOMPLETE !!!
+
 LEXICON Suffix !add links to roots and so forth
 ad      #;!'
 aĵ      #;!'
 ec      #;!
+uj      #;!"country (see also 'i')"
 ul      #;!'
 ar      #;!'
 ej      #;!'place'
 er      #;!'
 estr    #;!'boss/leader'
 id      #;!'child of'
+i       #;!"country (see also 'uj')"
 il      #;!'tool'
 in      #;!'female'
 ing     #;!'

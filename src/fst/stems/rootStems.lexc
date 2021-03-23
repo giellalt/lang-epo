@@ -17,24 +17,26 @@
 LEXICON Stems
 
 !AAA
+aflikt      R; !'afflict'
 afrik       R; !"African"
 aktiv       R; !"active"
 akv         R; !'water'
 alfabet     R; !'alphabet'
 ali         R; !"other"
 alt     	R; !"high"
+amerik      R; !'American'
 angl        R; !'English'
 antikv      R; !'ancient, antique'
 aper        R; !'appear'
 april       R; !"April"
-areo        R; !'area'
-arto        R; !'art'
+are         R; !'area'
+art         R; !'art'
 artikol     R; !"article"
 asoci       R; !'associate, association'
 arab        R; !'Arabian'
 aŭgust      R; !"August (the month)"
-aŭstralio   R; !'Australian'
-azi         R; !"Asian"
+aŭstral    R; !'Australian'
+az         R; !"Asian"
 
 !BBB
 baz         R; !'basic'
@@ -43,9 +45,13 @@ blank   	R; !"white"
 bibli       R; !'Bible'
 bon     	R; !"good"
 bonven      R; !"welcome"
-brazili     R; !'Brazilian'
-briti       R; !'British'
+brak        R; !'arm'
+brazil      R; !'Brazilian'
+brit        R; !'British'
 brun        R; !'brown'
+brust       R; !'chest of a person or animal'
+bus         R; !'bus'
+buŝ         R; !'mouth'
 
 !CCC
 cel         R; !"target/goal"
@@ -54,19 +60,23 @@ centr       R; !'center'
 !ĈĈĈ
 ĉef         R; !'chief, first, important'
 ĉefurb      R; !'capital city'
-ĉeĥio       R; !'Czech Republic'
+ĉeĥ         R; !'Czech Republic'
 ĉiel        R; !"heaven"
-ĉini        R; !'Chinese'
+ĉili        R; !"Chilean"
+ĉin         R; !'Chinese'
 
 !DDD
+damaĝ       R; !'damage'
 decembr     R; !"December"
 dekstr      R; !'right (opposite of left)'
 demand      R; !'ask';
+dent        R; !'tooth';
 dev         R; !"need"
 dimanĉ      R; !"Sunday"
 di          R; !'god'
 dir         R; !"say"
 divers      R; !'diverse'
+dolor       R; !'hurt'
 dom         R; !'house, home'
 don         R; !"give"
 dorm        R; !"sleep"
@@ -74,6 +84,7 @@ dosier      R; !'file, especially computer file'
 
 !EEE
 edz         R; !'husband/spouse'
+egipt       R; !"Egyptian"
 eklezi      R; !'church'
 ekonomi     R; !'economy'
 ekster      R; !'outside'
@@ -85,22 +96,26 @@ esperant    R; !"Esperanto language, or 'the one who hopes'"
 est         R; !"be"
 eŭrop       R; !'European'
 evident 	R; !"obvious"
+evit        R; !"evade, avoid"
 
 !FFF
 fal         R; !"fall"
 famili      R; !'family'
 far         R; !"do/make"
 februar     R; !"February"
+fek         R; !'excrement, poop'
 fil         R; !'son/child'
 film        R; !'film, movie'
 fin         R; !'final'
+fingr       R; !"finger"
 flag        R; !'flag'
 fort        R; !'strong'
 franc       R; !'French'
 fru         R; !'early'
 
 !GGG
-germani     R; !'German'
+genu        R; !'knee'
+german      R; !'German'
 grandioz	R; !"sublime/magnificent"
 grand       R; !"large, grand"
 grav    	R; !"serious"
@@ -114,8 +129,9 @@ grup        R; !'group'
 
 !HHH
 hav         R; !"have"
+hebre       R; !"Hebrew"
 help        R; !"help"
-hispanio    R; !'Spain'
+hispan      R; !'Spain'
 histori     R; !"history"
 hom         R; !"human"
 
@@ -130,10 +146,11 @@ internaci   R; !'international'
 insul       R; !'island'
 ir          R; !"go"
 islam       R; !'Islam'
+ital        R; !'Italian'
 
 !JJJ
 januar      R; !"January"
-japani      R; !'Japanese'
+japan       R; !'Japanese'
 jar         R; !"year"
 jarcent     R; !'century'
 jesu        R; !'Jesus'
@@ -148,7 +165,7 @@ juli        R; !"July"
 
 !KKK
 kant        R; !"sing"
-kant        R; !"sing"
+kap         R; !"head"
 kategori    R; !"category"
 kelk        R; !'some, a few'
 kolor       R; !"color" 
@@ -157,14 +174,18 @@ kon         R; !'know'
 konsist     R; !'consist, be made of'
 kongres     R; !'congress'
 konstru     R; !'make';
+kor         R; !'heart'
 koran       R; !'Koran/Quaran'
 krist       R; !'Christ'
 krokodil    R; !"(speak one's native language when it is expected one speak in Esperanto)"
+krur        R; !'leg'
+kub         R; !'Cuban'
 kultur      R; !'culture'
 
 !LLL
 labor       R; !'labor/work'
 land        R; !"country"
+lang        R; !'tongue'
 last        R; !'latest/last'
 leg         R; !'read';
 leĝ         R; !'law'
@@ -174,6 +195,7 @@ libr        R; !"book"
 lig         R; !'fasten, link'
 ligil       R; !'web link'
 lingv       R; !'language'
+lip         R; !'lip'
 list        R; !'list'
 literatur   R; !'literature'
 lok         R; !'location/place'
@@ -185,12 +207,14 @@ lund        R; !"Monday"
 mahomet     R; !'Mohammed PBUH'
 maj         R; !"May (the month)"
 manĝ        R; !'eat';
+man         R; !"hand"
 mank        R; !'missing, lacking'
 map         R; !'map'
 mard        R; !"Tuesday"
 mar         R; !'ocean/sea'
 mart        R; !"March (the month)"
 membr       R; !'member'
+menton      R; !'chin'
 merkred     R; !"Wednesday"
 metro       R; !"metro (nominative 'metroo')""
 maten       R; !'morning'
@@ -207,6 +231,8 @@ muzik       R; !'music'
 
 !NNN
 naci        R; !'nation, people'
+nask        R; !"birth"
+naz         R; !'nose'
 nigr    	R; !"black"
 nokt        R; !'night'
 nom         R; !"name"
@@ -221,6 +247,7 @@ oft         R; !"often"
 okaz        R; !"occur, happen"
 okcident    R; !'west'
 oktobr      R; !"October"
+okul        R; !'eye'
 oportun 	R; !"convenient"
 orient      R; !'east'
 
@@ -230,34 +257,45 @@ pariz       R; !'Parisian'
 parol       R; !"speak"
 part        R; !"part"
 patr        R; !'father'
+pen         R; !'attempt, try'
+penis       R; !'penis'
 pens        R; !"think"
+pied        R; !'foot'
+piedfingr  R; !'toe'
 plat		R; !"flat/slab/sheet"
+plur        R; !'plural'
 politik     R; !'political
 popol       R; !'population'
 pov         R; !"can, be able to"
+prezidant   R; !"prezident"
 
 !RRR
 rapid       R; !"quick"
-raz         R; !shave"
+raz         R; !"shave"
+regad       R; !"reign"
 region      R; !"region"
 regular     R; !"rule, regulation"
 reĝ         R; !'king, royal'
-religio     R; !'religion'
+religi      R; !'religion'
 respublik   R; !'republic'
 river       R; !'river'
-romi        R; !"Roman"
+rom         R; !"Roman"
 romp        R; !'break';
-rusi        R; !'Russian'
+rus         R; !'Russian'
 
 !SSS
 sabat       R; !"Saturday"
 sam         R; !'same'
 san 		R; !"health"
 sankt       R; !'holy'
+sci         R; !"know"
 scienc      R; !'science'
 septembr    R; !"September"
+signif      R; !"signify, mean, represent"
+sinjor      R; !"lord"
 sistem      R; !'system'
-slovaki     R; !'Slovakian'
+slovak      R; !'Slovakian'
+stomak      R; !'stomach'
 sud         R; !'south'
 
 !ŜŜŜ
@@ -270,6 +308,7 @@ tek         R; !'capsule, shell, container'
 teori       R; !'theory'
 temp        R; !'time'
 ter         R; !'earth'
+tim         R; !'fear'
 teritori    R; !'territory'
 traduk      R; !'translate'
 trov        R; !'find
@@ -283,6 +322,7 @@ uson        R; !'American'
 uz          R; !'use'
 
 !VVV
+vagin      R; !'vagina'
 ven         R; !"come"
 vendred     R; !"Friday"
 verd		R; !"green"
@@ -290,6 +330,7 @@ verk        R; !'to create, to produce'
 vetur       R; !"travel/ride"
 vid         R; !'see';
 viv         R; !"life, live"
+vizaĝ       R; !'face'
 vol         R; !'want';
 vort        R; !'word'
 

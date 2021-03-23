@@ -1,35 +1,28 @@
 LEXICON Kor
-+Kor:   Kor+head;    !null root for correlatives (korelativoj)
+ki        Kor+tag;  !Question
+ti        Kor+tag;  !Indication
+i         Kor+tag;  !Indefinite
+ĉi        Kor+tag;  !Universal
+neni      Kor+tag;  !Negative
 
-LEXICON Kor+head
-+Quest:ki   tail;   !Question
-+Indic:ti   tail;   !Indication
-+Indef:i    tail;   !Indefinite
-+Univ:ĉi    tail;   !Universal
-+Neg:neni   tail;   !Negative
-
-!ki      Kor;    !'Question'
-!ti      Kor;    !'Indication'
-!i       Kor;    !'Indefinite'
-!ĉi      Kor;    !'Universal'
-!neni    Kor;    !'Negative'
-
-!LEXICON Kor
-!+Kor: Kor-suff;
+LEXICON Kor+tag
++Kor:   tail;
 
 LEXICON tail
-+Qual:a     #;
-+Reas:al    #;
-+Time:am    #;
-+Place:e    #;
-+Mann:el    #;
-+Assoc:es   #;
-+Thing:o    Number;
-+Amt:om     #;
-+Indiv:u    Number;
++Qual:a     #;      !'Quality'
++Reas:al    #;      !'Reason'
++Time:am    #;      !'Time'
++Place:e    #;      !'Place'
++Mann:el    #;      !'Manner'
++Assoc:es   #;      !'Association (possession)'
++Thing:o    Number; !'Thing'
++Amt:om     #;      !'Amount'
++Indiv:u    Number; !'Individual
 
 !!€gt-desc: correlative tests
-!!€ kio: ki+Kor+Quest+Thing+Sing+Nom
-!!€ tiujn: ti+Kor+Indic+Indiv+Plu+Acc
-!!€ kies: ki+Kor+Quest+Assoc
-
+!!€ kio:     ki+Kor+Thing+Sing+Nom
+!!€ kies:    ki+Kor+Assoc
+!!€ kial:    ki+Kor+Reas
+!!€ tiujn:   ti+Kor+Indiv+Plu+Acc
+!!€ iom:     i+Kor+Amt
+!!€ neniom:  neni+Kor+Amt
