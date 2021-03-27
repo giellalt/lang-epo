@@ -1,7 +1,14 @@
-LEXICON Interjections
-aj      #;!'ay!'
-ho      #;!'oh!'
-fek     #;!'shit!'
-saluton #;!'hello'
-sal     #;!'hi'
-ĝis     #;!'goodbye'
+LEXICON Interjection
+aj      Interjection+tag;!'ay!'
+ek      Interjection+tag;!'get going, go away!'
+fek     Interjection+tag;!'shit!'
+ĝis     Interjection+tag;!'goodbye'
+ja      Interjection+tag; !'emphatic particle'
+ho      Interjection+tag;!'oh!'
+sal     Interjection+tag;!'hi'
+saluton Interjection+tag;!'hello'
+um      Interjection+tag;!'(filler word)'
+
+
+LEXICON Interjection+tag
++Interj:    #;

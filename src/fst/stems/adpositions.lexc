@@ -2,6 +2,7 @@
 LEXICON Adp
 al       Adp+tag; !'to'
 anstataŭ Adp+tag; !'instead of'
+ĉe       Adp+tag; !'
 da       Adp+tag; !'of (for quantities)'
 de       Adp+tag; !'of (for possession/belonging)'
 dum      Adp+tag; !'while/during'
@@ -11,7 +12,6 @@ en       Adp+tag; !'in'
 inter    Adp+tag; !'between'
 kun      Adp+tag; !'with'
 krom     Adp+tag; !'except'
-ol       Adp+tag; !''
 per      Adp+tag; !'with, through, by means of'
 por      Adp+tag; !'for'
 pri      Adp+tag; !'about'
@@ -19,6 +19,7 @@ pro      Adp+tag; !'because'
 sen      Adp+tag; !'without'
 sub      Adp+tag; !'under'
 sur      Adp+tag; !'on'
+tra      Adp+tag; !'through'
 
 LEXICON Adp+tag
 +Adp: #;
