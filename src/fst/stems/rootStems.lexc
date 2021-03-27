@@ -35,12 +35,13 @@ artikol     R; !"article"
 asoci       R; !'associate, association'
 arab        R; !'Arabian'
 aŭgust      R; !"August (the month)"
-aŭstral    R; !'Australian'
-az         R; !"Asian"
+aŭstral     R; !'Australian'
+az          R; !"Asian"
 
 !BBB
 baz         R; !'basic'
 berlin      R; !"Berlin"
+best        R; !'beast, animal'
 blank   	R; !"white"
 bibli       R; !'Bible'
 bon     	R; !"good"
@@ -64,6 +65,7 @@ centr       R; !'center'
 ĉiel        R; !"heaven"
 ĉili        R; !"Chilean"
 ĉin         R; !'Chinese'
+ĉokolad     R; !'chocolate'
 
 !DDD
 damaĝ       R; !'damage'
@@ -218,6 +220,7 @@ menton      R; !'chin'
 merkred     R; !"Wednesday"
 metro       R; !"metro (nominative 'metroo')""
 maten       R; !'morning'
+matenmanĝ   R; !'breakfast'
 milard      R; !"billion"
 milion      R; !"million"
 milit       R; !"war"
@@ -261,18 +264,19 @@ pen         R; !'attempt, try'
 penis       R; !'penis'
 pens        R; !"think"
 pied        R; !'foot'
-piedfingr  R; !'toe'
+piedfingr   R; !'toe'
 plat		R; !"flat/slab/sheet"
 plur        R; !'plural'
 politik     R; !'political
 popol       R; !'population'
+post        R; !'after'
 pov         R; !"can, be able to"
 prezidant   R; !"prezident"
 
 !RRR
 rapid       R; !"quick"
 raz         R; !"shave"
-regad       R; !"reign"
+reĝad       R; !"reign"
 region      R; !"region"
 regular     R; !"rule, regulation"
 reĝ         R; !'king, royal'
@@ -303,7 +307,8 @@ sud         R; !'south'
 ŝtat        R; !'political state'
 
 !TTT
-tag         R; !'day
+tag         R; !'day'
+tagmanĝ     R; !'lunch'
 tek         R; !'capsule, shell, container'
 teori       R; !'theory'
 temp        R; !'time'

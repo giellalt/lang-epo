@@ -1,13 +1,20 @@
 LEXICON CC
 
-ja   CC-tag; !'affirmation particle'
-kaj  CC-tag; !'and'
-sed  CC-tag; !'but'
-aŭ   CC-tag; !'or'
-nek  CC-tag; !'neither/nor'
-do   CC-tag; !'so'
-dum  CC-tag; !'during/while'
-krom CC-tag; !'against'
+anstataŭ CC-tag; !'instead of'
+aŭ       CC-tag; !'or'
+do       CC-tag; !'so'
+dum      CC-tag; !'during/while'
+kaj      CC-tag; !'and'
+krom     CC-tag; !'against'
+kun      CC-tag; !'with'
+minus    CC-tag; !'minus'
+nek      CC-tag; !'neither/nor'
+ol       CC-tag; !'than'
+plus     CC-tag; !'plus'
+se       CC-tag; !'if'
+sed      CC-tag; !'but'
 
 LEXICON CC-tag
 +CC:    #;
+
+!kaj, kun, aŭ, nek, se, ĉu, sed, anstataŭ, krom, kiel, ke
