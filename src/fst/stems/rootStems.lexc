@@ -34,8 +34,10 @@ art         R; !'art'
 artikol     R; !"article"
 asoci       R; !'associate, association'
 arab        R; !'Arabian'
+armen       R; !"Armenian"
 aŭgust      R; !"August (the month)"
 aŭstral     R; !'Australian'
+av          R; !'grandfather'
 az          R; !"Asian"
 
 !BBB
@@ -107,12 +109,14 @@ far         R; !"do/make"
 februar     R; !"February"
 fek         R; !'excrement, poop'
 fil         R; !'son/child'
+filozofi    R; !'philosophy'
 film        R; !'film, movie'
 fin         R; !'final'
 fingr       R; !"finger"
 flag        R; !'flag'
 fort        R; !'strong'
 franc       R; !'French'
+frat        R; !'brother'
 fru         R; !'early'
 
 !GGG
@@ -251,6 +255,7 @@ okaz        R; !"occur, happen"
 okcident    R; !'west'
 oktobr      R; !"October"
 okul        R; !'eye'
+onkl        R; !"uncle"
 oportun 	R; !"convenient"
 orient      R; !'east'
 
@@ -271,6 +276,7 @@ politik     R; !'political
 popol       R; !'population'
 post        R; !'after'
 pov         R; !"can, be able to"
+preĝ        R; !'pray'
 prezidant   R; !"prezident"
 
 !RRR
@@ -314,7 +320,7 @@ teori       R; !'theory'
 temp        R; !'time'
 ter         R; !'earth'
 tim         R; !'fear'
-teritori    R; !'territory'
+teritor    R; !'territory' *needs country -i ending?
 traduk      R; !'translate'
 trov        R; !'find
 tut         R; !'whole, entire'
@@ -343,9 +349,10 @@ vort        R; !'word'
 zo          R; !'animal'
 !END LEXICON Stem
 
-! Lexicon containing POS tag only:
+! Lexicon tags as rootcontaining POS tag only:
 LEXICON R
-+R: R-pos;
++R: R-pos;  ! goes straight to POS lexicon
++R: Suffix; ! goes to suffix lexicon
 
 ! Lexicon containing inflectional suffixes and corresponding tags:
 LEXICON R-pos
