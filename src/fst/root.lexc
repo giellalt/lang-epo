@@ -45,7 +45,7 @@ Multichar_Symbols
 +Num      !Number
 +Particle !Particle
 +Prefix   !Prefix
-+Suffix   !Suffix
++Suff   !Suffix
 
 !Automatic punctuation tags
 
@@ -65,7 +65,7 @@ Adp         ;
 CC          ;
 Interjection;
 Kor         ;
-Num         ;
+Numeral     ;
 Particle    ;
 Prefix      ;
 Pronoun     ;

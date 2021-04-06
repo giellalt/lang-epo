@@ -5,13 +5,23 @@ LEXICON Noun_symbols_never_inflected ! ad hoc to make compile.
 # ;
 
 !!! INCOMPLETE !!!
+LEXICON Suffix
++Suff: Suff-with-tag;
 
-LEXICON Suffix !add links to roots and so forth
+LEXICON Suff-with-tag !add links to roots and so forth
+aĉ      #;!'(pejorative)'
 ad      #;!'
 aĵ      #;!'
-ec      #;!
-uj      #;!"country (see also 'i')"
-ul      #;!'
+an      #;!'member/inhabitant/participant'
+ar      #;!'group
+!ĉj      #;!'(masculine affectionate)' ! This one changes the stem, so it'll require some special work. "patro" --> "paĉjo"
+ec      #;!'abstract quality of'
+eg      #;!'augmentative'
+ej      #;!'place'
+em      #;!'having propensity to, tendency of'
+er      #;!'the smallest part of'
+uj      #;!"country (see also 'i'), container of"
+ul      #;!'person characterized by'
 ar      #;!'
 ej      #;!'place'
 er      #;!'
@@ -21,16 +31,16 @@ i       #;!"country (see also 'uj')"
 il      #;!'tool'
 in      #;!'female'
 ing     #;!'
-ism     #;!'
+ism     #;!'doctrine, system of'
 ist     #;!'
 uj      #;!'
 ebl     #;!'
 em      #;!'
 en      #;!'
 end     #;!'
-ind     #;!'
-ig      #;!'causative'
-iĝ      #;!'ergative'
+ind     #;!'worthy of'
+ig      R-pos;!'causative'
+iĝ      R-pos;!'ergative'
 et      #;!'
 an      #;!'
 

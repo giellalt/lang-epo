@@ -1,4 +1,4 @@
-LEXICON Num
+LEXICON Numeral
 unu        Num-suff; !"one"
 du         Multiplier; !"two"
 tri        Multiplier; !"three"
@@ -21,12 +21,17 @@ dek        Num-suff; !"ten"
 cent       Num-suff; !"hundred"
 mil        Num-suff; !"thousand"
 
-milion     Num-suff; !"million"
-miliard    Num-suff; !"billion"
+milion     Num-milion-special; !"million"
+miliard    Num-milion-special; !"billion"
 
 LEXICON Num-suff
 +Ordinal:a      Number; !directs to Lexicon Number, which then directs to Lexicon Case.
 +Cardinal:      #;
+
+! miliono and miliardo are regular nouns instead of numbers, so their cardinal form ends with -o
+LEXICON Num-milion-special 
++Ordinal:a      Number; !directs to Lexicon Number, which then directs to Lexicon Case.
++Cardinal:o     Number; !directs to Lexicon Number, which then directs to Lexicon Case.
 
 ! NOTE: 11-19 are "dek unu" through "dek naŭ"
 !   20 is "dudek" (du+dek), and 25 is "dudek kvin"
@@ -52,6 +57,6 @@ LEXICON Num-suff
 !!€ triajn: tri+Ordinal+Plu+Acc
 !!€ tridek: tridek+Cardinal
 !!€ trimil: trimil+Cardinal
-!!€ trimiliono: trimilion+Ordinal
+!!€ trimiliono: trimilion+Cardinal+Sing+Nom
 !!€ trimilionajn: trimilion+Ordinal+Plu+Acc
 

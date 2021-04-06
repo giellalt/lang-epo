@@ -9,6 +9,12 @@ Config:
 
 Tests:
 
+  Verb - manĝu:
+    manĝ+R+V+Imp: manĝu
+  Noun - shouldFail:
+    fail+R+N+Sing+Nom: fail
+
+
 # Tag tests:
 # G3 - vuorru:
 #    vuorru+G3+N+Sg+Gen: vuorru
