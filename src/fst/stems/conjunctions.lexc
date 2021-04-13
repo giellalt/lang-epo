@@ -1,7 +1,9 @@
 LEXICON CC
-
+    
+ankoraŭ  CC-tag; !'still'
 anstataŭ CC-tag; !'instead of'
 aŭ       CC-tag; !'or'
+ĉar      CC-tag; !'because'
 do       CC-tag; !'so'
 dum      CC-tag; !'during/while'
 kaj      CC-tag; !'and'
@@ -13,6 +15,7 @@ ol       CC-tag; !'than'
 plus     CC-tag; !'plus'
 se       CC-tag; !'if'
 sed      CC-tag; !'but'
+tamen    CC-tag; !"however"
 
 LEXICON CC-tag
 +CC:    #;
