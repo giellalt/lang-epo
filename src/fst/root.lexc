@@ -43,6 +43,7 @@ Multichar_Symbols
 +CC       !Conjunction
 +Interj   !Interjection
 +Num      !Number
++Participle!Participle
 +Particle !Particle
 +Prefix   !Prefix
 +Suff   !Suffix
@@ -66,6 +67,7 @@ CC          ;
 Interjection;
 Kor         ;
 Numeral     ;
+Participle  ;
 Particle    ;
 Prefix      ;
 Pronoun     ;

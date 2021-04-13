@@ -17,6 +17,7 @@
 LEXICON Stems
 
 !AAA
+afer        R; !'thing'
 aflikt      R; !'afflict'
 afrik       R; !"African"
 aktiv       R; !"active"
@@ -35,12 +36,14 @@ artikol     R; !"article"
 asoci       R; !'associate, association'
 arab        R; !'Arabian'
 armen       R; !"Armenian"
+armilar     R; !'armaments'
 aŭgust      R; !"August (the month)"
 aŭstral     R; !'Australian'
 av          R; !'grandfather'
 az          R; !"Asian"
 
 !BBB
+babil       R; !'chat'
 baz         R; !'basic'
 berlin      R; !"Berlin"
 best        R; !'beast, animal'
@@ -71,6 +74,7 @@ centr       R; !'center'
 
 !DDD
 damaĝ       R; !'damage'
+dank        R; !"thank"
 decembr     R; !"December"
 dekstr      R; !'right (opposite of left)'
 demand      R; !'ask';
@@ -101,6 +105,7 @@ est         R; !"be"
 eŭrop       R; !'European'
 evident 	R; !"obvious"
 evit        R; !"evade, avoid"
+evolu       R; !'evolution'
 
 !FFF
 fal         R; !"fall"
@@ -117,10 +122,12 @@ flag        R; !'flag'
 fort        R; !'strong'
 franc       R; !'French'
 frat        R; !'brother'
+fraz        R; !'phrase'
 fru         R; !'early'
 
 !GGG
 genu        R; !'knee'
+geografi    R; !'geography'
 german      R; !'German'
 grandioz	R; !"sublime/magnificent"
 grand       R; !"large, grand"
@@ -128,8 +135,10 @@ grav    	R; !"serious"
 grek        R; !'Greek'
 griz        R; !"gray/grey"
 grup        R; !'group'
+gugl        R; !"10 to the 100th power, or Google"
 
 !ĜĜĜ
+ĝarden      R; !'garden'
 ĝeneral     R; !'general, non-specific'
 ĝoj         R; !"joy/enjoy/rejoice"
 
@@ -148,6 +157,7 @@ ig          R; !'to cause, or make something so'
 iĝ          R; !"to become"
 il          R; !'tool'
 imperi      R; !'empire'
+instru      R; !'teach'
 internaci   R; !'international'
 insul       R; !'island'
 ir          R; !"go"
@@ -174,6 +184,7 @@ kant        R; !"sing"
 kap         R; !"head"
 kategori    R; !"category"
 kelk        R; !'some, a few'
+kirk        R; !'church'
 kolor       R; !"color" 
 komenc      R; !'commence/begin'
 kon         R; !'know'
@@ -182,6 +193,9 @@ kongres     R; !'congress'
 konstru     R; !'make';
 kor         R; !'heart'
 koran       R; !'Koran/Quaran'
+korp        R; !'body'
+kred        R; !"believe"
+kresk        R; !'grow'
 krist       R; !'Christ'
 krokodil    R; !"(speak one's native language when it is expected one speak in Esperanto)"
 krur        R; !'leg'
@@ -204,6 +218,7 @@ lingv       R; !'language'
 lip         R; !'lip'
 list        R; !'list'
 literatur   R; !'literature'
+loĝ         R; !'reside at"
 lok         R; !'location/place'
 long    	R; !"long"
 luks    	R; !"luxurious"
@@ -233,6 +248,7 @@ mond        R; !"world"
 montr       R; !'show/reveal'
 mormon      R; !'Mormon'
 mort        R; !'death'
+mov         R; !'move'
 mult        R; !"much, many"
 muzik       R; !'music'
 
@@ -257,6 +273,7 @@ oktobr      R; !"October"
 okul        R; !'eye'
 onkl        R; !"uncle"
 oportun 	R; !"convenient"
+or          R; !'gold'
 orient      R; !'east'
 
 !PPP
@@ -268,6 +285,7 @@ patr        R; !'father'
 pen         R; !'attempt, try'
 penis       R; !'penis'
 pens        R; !"think"
+person      R; !"person"
 pied        R; !'foot'
 piedfingr   R; !'toe'
 plat		R; !"flat/slab/sheet"
@@ -278,15 +296,18 @@ post        R; !'after'
 pov         R; !"can, be able to"
 preĝ        R; !'pray'
 prezidant   R; !"prezident"
+publik      R; !'public'
 
 !RRR
 rapid       R; !"quick"
 raz         R; !"shave"
+referenc    R; !'reference'
 reĝad       R; !"reign"
 region      R; !"region"
 regular     R; !"rule, regulation"
 reĝ         R; !'king, royal'
 religi      R; !'religion'
+respond     R; !'answer'
 respublik   R; !'republic'
 river       R; !'river'
 rom         R; !"Roman"
@@ -304,8 +325,13 @@ septembr    R; !"September"
 signif      R; !"signify, mean, represent"
 sinjor      R; !"lord"
 sistem      R; !'system'
+skrib       R; !'write'
 slovak      R; !'Slovakian'
+soci        R; !'societal'
+socialism   R; !'socialism'
+soviet      R; !'Soviet'
 stomak      R; !'stomach'
+strig       R; !'owl'
 sud         R; !'south'
 
 !ŜŜŜ
@@ -320,7 +346,8 @@ teori       R; !'theory'
 temp        R; !'time'
 ter         R; !'earth'
 tim         R; !'fear'
-teritor    R; !'territory' *needs country -i ending?
+teritor     R; !'territory' *needs country -i ending?
+tradici     R; !'tradition'
 traduk      R; !'translate'
 trov        R; !'find
 tut         R; !'whole, entire'
@@ -333,7 +360,7 @@ uson        R; !'American'
 uz          R; !'use'
 
 !VVV
-vagin      R; !'vagina'
+vagin       R; !'vagina'
 ven         R; !"come"
 vendred     R; !"Friday"
 verd		R; !"green"

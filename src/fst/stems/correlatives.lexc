@@ -9,7 +9,7 @@ LEXICON Kor+tag
 +Kor:   tail;
 
 LEXICON tail
-+Qual:a     #;      !'Quality'
++Qual:a     Number;      !'Quality'
 +Reas:al    #;      !'Reason'
 +Time:am    #;      !'Time'
 +Place:e    #;      !'Place'

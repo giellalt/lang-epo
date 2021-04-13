@@ -2,13 +2,18 @@ LEXICON Particle
 ankaŭ   Part+tag; !'also'
 ĉu      Part+tag; !'whether, or question particle'
 eĉ      Part+tag; !'even'
+ekde    Part+tag; !'since'
+jam     Part+tag; !'already'
 ke      Part+tag; !'that (relativizer)'
 ktp     Part+tag; !"and so forth (like Latin 'etc.')""
+laŭ     Part+tag; !'according to'
 ne      Part+tag; !'not'
+nun     Part+tag; !'now'
 nur     Part+tag; !'only'
 ol      Part+tag; !'than'
-pli     Part+tag; !'more'  
-
+plej    Part+tag; !'(superlative) most'
+pli     Part+tag; !'(comparative) more'
+tre     Part+tag; !'very'
 
 LEXICON Part+tag
 +Particle:      #;

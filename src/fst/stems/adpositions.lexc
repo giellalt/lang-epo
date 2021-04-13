@@ -2,7 +2,9 @@
 LEXICON Adp
 al       Adp+tag; !'to'
 anstataŭ Adp+tag; !'instead of'
-ĉe       Adp+tag; !'
+antaŭ    Adp+tag; !"before"
+ĉe       Adp+tag; !'at'
+ĉirkaŭ   Adp+tag; !"around"
 da       Adp+tag; !'of (for quantities)'
 de       Adp+tag; !'of (for possession/belonging)'
 dum      Adp+tag; !'while/during'
@@ -10,8 +12,10 @@ el       Adp+tag; !'out of, made out of'
 en       Adp+tag; !'in'
 ĝis      Adp+tag; !'until'
 inter    Adp+tag; !'between'
+kontraŭ  Adp+tag; !'against'
 kun      Adp+tag; !'with'
 krom     Adp+tag; !'except'
+kvankam  Adp+tag; !'although'
 per      Adp+tag; !'with, through, by means of'
 por      Adp+tag; !'for'
 pri      Adp+tag; !'about'
