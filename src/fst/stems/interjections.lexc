@@ -1,14 +1,16 @@
 LEXICON Interjection
-aj      Interjection+tag;!'ay!'
-ek      Interjection+tag;!'get going, go away!'
-fek     Interjection+tag;!'shit!'
-ĝis     Interjection+tag;!'goodbye'
-ja      Interjection+tag; !'emphatic particle'
-ho      Interjection+tag;!'oh!'
-sal     Interjection+tag;!'hi'
-saluton Interjection+tag;!'hello'
-um      Interjection+tag;!'(filler word)'
+aj         Interj+tag;!'ay!'
+dankon     Interj+tag;!'Thank you!'
+ek         Interj+tag;!'get going, go away!'
+fek        Interj+tag;!'shit!'
+ĝis        Interj+tag;!'goodbye'
+ho         Interj+tag;!'oh!'
+ja         Interj+tag;!'emphatic particle'
+nedankinde Interj+tag;!'you're welcome / no problem'
+sal        Interj+tag;!'hi'
+saluton    Interj+tag;!'hello'
+um         Interj+tag;!'(filler word)'
 
 
-LEXICON Interjection+tag
+LEXICON Interj+tag
 +Interj:    #;

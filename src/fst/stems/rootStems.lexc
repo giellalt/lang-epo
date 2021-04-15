@@ -26,6 +26,7 @@ alfabet     R; !'alphabet'
 ali         R; !"other"
 alt     	R; !"high"
 amerik      R; !'American'
+amik        R; !'friend'
 angl        R; !'English'
 antikv      R; !'ancient, antique'
 aper        R; !'appear'
@@ -195,7 +196,7 @@ kor         R; !'heart'
 koran       R; !'Koran/Quaran'
 korp        R; !'body'
 kred        R; !"believe"
-kresk        R; !'grow'
+kresk       R; !'grow'
 krist       R; !'Christ'
 krokodil    R; !"(speak one's native language when it is expected one speak in Esperanto)"
 krur        R; !'leg'
@@ -419,7 +420,7 @@ LEXICON Case
 
 ! INLINE LEXC TEST:
 
-!!€gt-desc: gloss - (konstr-, 'build')
+!!€gt-desc: rootStems.lexc Noun, Adj, Verb, Adv
 !!€ konstrua: konstru+R+Adj+Sing+Nom
 !!€ konstruo: konstru+R+N+Sing+Nom
 !!€ konstrui: konstru+R+V+Inf
@@ -427,5 +428,5 @@ LEXICON Case
 !!€ rapide: rapid+R+Adv
 !!€ lingvoj: lingv+R+N+Plu+Nom
 !!€ tempojn: temp+R+N+Plu+Acc
-!!€ germanio: germani+R+N+Sing+Nom
+!!€ germanio: german+R+Suff+N+Sing+Nom
 !
