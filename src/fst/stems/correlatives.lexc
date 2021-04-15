@@ -1,15 +1,15 @@
 LEXICON Kor
-ki        Kor+tag;  !Question
-ti        Kor+tag;  !Indication
-i         Kor+tag;  !Indefinite
-ĉi        Kor+tag;  !Universal
-neni      Kor+tag;  !Negative
++Quest:k      Kor+tag;  !Question
++Indic:t      Kor+tag;  !Indication
++Indef:       Kor+tag;  !Indefinite
++Univ:ĉ       Kor+tag;  !Universal
++Neg:nen      Kor+tag;  !Negative
 
 LEXICON Kor+tag
-+Kor:   tail;
++Kor:i   tail;
 
 LEXICON tail
-+Qual:a     Number;      !'Quality'
++Qual:a     Number; !'Quality'
 +Reas:al    #;      !'Reason'
 +Time:am    #;      !'Time'
 +Place:e    #;      !'Place'
@@ -20,9 +20,9 @@ LEXICON tail
 +Indiv:u    Number; !'Individual
 
 !!€gt-desc: correlative tests
-!!€ kio:     ki+Kor+Thing+Sing+Nom
-!!€ kies:    ki+Kor+Assoc
-!!€ kial:    ki+Kor+Reas
-!!€ tiujn:   ti+Kor+Indiv+Plu+Acc
-!!€ iom:     i+Kor+Amt
-!!€ neniom:  neni+Kor+Amt
+!!€ kio:     +Quest+Kor+Thing+Sing+Nom
+!!€ kies:    +Quest+Kor+Assoc
+!!€ kial:    +Quest+Kor+Reas
+!!€ tiujn:   +Indic+Kor+Indiv+Plu+Acc
+!!€ iom:     +Indef+Kor+Amt
+!!€ neniom:  +Neg+Kor+Amt

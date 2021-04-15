@@ -4,8 +4,6 @@ LEXICON Noun_symbols_possibly_inflected ! ad hoc to make compile.
 LEXICON Noun_symbols_never_inflected ! ad hoc to make compile.
 # ;
 
-!!! INCOMPLETE !!!
-
 ! Prefixes can stack ('manĝ-eg-igi,' to feed someone greatly), so design decisions
 !   must be made as to which ones should combine ('manĝeble' is edible, but 'manĝ-et-end-i-o' is 'the land of mandatorily small food')
 !   and how order constraints ('manĝ-aĉ-et-o:' 'small, awful food' versus 'manĝ-et-aĉ-o:'awful, small food') are to be handled.
@@ -49,7 +47,7 @@ LEXICON Suffix !add links to roots and so forth
 
 !Tests:
 !!€gt-desc: suffixes
-!!€ kirkano:   kirk+R+Suff+N+Sing+Nom
+!!€ kirkano:    kirk+R+Suff+N+Sing+Nom
 !!€ manĝemaj:   manĝ+R+Suff+Adj+Plu+Nom
 !!€ germanujon: german+R+Suff+N+Sing+Acc
 !!€ kristismo:  krist+R+Suff+N+Sing+Nom

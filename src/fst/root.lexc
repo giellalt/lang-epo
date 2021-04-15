@@ -38,32 +38,31 @@ Multichar_Symbols
     +Amt    !Amount
     +Indiv  !Individual
 
-+Adp      !Adposition (preposition or postposition)
-+Art      !Article
-+CC       !Conjunction
-+Interj   !Interjection
-+Num      !Number
-+Participle!Participle
-+Particle !Particle
-+Prefix   !Prefix
-+Suff   !Suffix
++Adp        !Adposition (preposition or postposition)
++Art        !Article
++CC         !Conjunction
++Interj     !Interjection
++Num        !Number
++Participle !Participle
++Particle   !Particle
++Prefix     !Prefix
++Suff       !Suffix
 
 !Automatic punctuation tags
-
 +CLB
 +Err/Orth
 +LEFT
 +PUNCT
 +RIGHT
-
 ! end punctuation tags
 
 !+Foreign
 
 LEXICON Root
-Art         ;
 Adp         ;
+Art         ;
 CC          ;
+!Foreign     ;
 Interjection;
 Kor         ;
 Numeral     ;
@@ -73,6 +72,5 @@ Prefix      ;
 Pronoun     ;
 Suffix      ;
 Stems       ;
-!Foreign     ;
 
 
