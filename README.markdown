@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/issues)
- [![Build Status](https://github.com/giellalt/lang-epo/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-epo/actions)
+[![Build Status](https://github.com/giellalt/lang-epo/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-epo/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-epo)](https://raw.githubusercontent.com/giellalt/lang-epo/develop/LICENSE)
 
 The Esperanto analyser is made just for testing and pedagogical
 purposes.
