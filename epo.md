@@ -664,12 +664,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *
