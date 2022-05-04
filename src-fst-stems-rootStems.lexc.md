@@ -1,6 +1,6 @@
 
 
-*rootStems.lexc Noun, Adj, Verb, Adv examples:*
+* rootStems.lexc Noun, Adj, Verb, Adv examples:*
 * *konstrua:* `konstru+R+Adj+Sing+Nom`
 * *konstruo:* `konstru+R+N+Sing+Nom`
 * *konstrui:* `konstru+R+V+Inf`

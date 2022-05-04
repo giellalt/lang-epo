@@ -172,7 +172,7 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-epo/blob/main/src/cg3/functions.cg3)</small>
 
-*rootStems.lexc Noun, Adj, Verb, Adv examples:*
+* rootStems.lexc Noun, Adj, Verb, Adv examples:*
 * *konstrua:* `konstru+R+Adj+Sing+Nom`
 * *konstruo:* `konstru+R+N+Sing+Nom`
 * *konstrui:* `konstru+R+V+Inf`
