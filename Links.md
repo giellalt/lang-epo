@@ -3,7 +3,8 @@
         * [functions.cg3](src-cg3-functions.cg3.html) ([src](https://github.com/giellalt/lang-epo/blob/main/src/cg3/functions.cg3))
     * `fst/`
         * `stems/`
-            * [rootStems.lexc](src-fst-stems-rootStems.lexc.html) ([src](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/rootStems.lexc))
+            * [numbers.lexc](src-fst-stems-numbers.lexc.html) ([src](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/numbers.lexc))
+            * [roots.lexc](src-fst-stems-roots.lexc.html) ([src](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/roots.lexc))
     * `phonetics/`
         * [txt2ipa.xfscript](src-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-epo/blob/main/src/phonetics/txt2ipa.xfscript))
     * `transcriptions/`

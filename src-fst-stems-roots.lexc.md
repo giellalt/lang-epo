@@ -12,7 +12,7 @@
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/rootStems.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/rootStems.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/roots.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/roots.lexc)</small>
 
 ---
 
