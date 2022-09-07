@@ -172,24 +172,6 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-epo/blob/main/src/cg3/functions.cg3)</small>
 
-* numerical tests examples:*
-* *nulo:* `nul+Cardinal+Sing+Nom`
-* *tri:* `tri+Cardinal`
-* *tria:* `tri+Ordinal+Sing+Nom`
-* *triajn:* `tri+Ordinal+Plu+Acc`
-* *tridek:* `tridek+Cardinal`
-* *trimil:* `trimil+Cardinal`
-* *trimiliono:* `trimilion+Cardinal+Sing+Nom`
-* *trimilionajn:* `trimilion+Ordinal+Plu+Acc`
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/numbers.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/numbers.lexc)</small>
-
----
-
-
-
 * rootStems.lexc Noun, Adj, Verb, Adv examples:*
 * *konstrua:* `konstru+R+Adj+Sing+Nom`
 * *konstruo:* `konstru+R+N+Sing+Nom`
@@ -202,7 +184,7 @@ These were the set types.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/roots.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/roots.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/rootStems.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/rootStems.lexc)</small>
 
 ---
 
