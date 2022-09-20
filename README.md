@@ -4,6 +4,8 @@ The Esperanto morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-epo/main/badge.svg)](https://github.com/giellalt/lang-epo/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-epo?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-epo?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Esperanto language,
 for building morphological analysers, proofing tools
