@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-epo/main/badge.svg)](https://github.com/giellalt/lang-epo/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-epo/main/badge.svg)](https://github.com/giellalt/lang-epo/actions)
 
 This page documents the work on the **Esperanto language model**. 
 
