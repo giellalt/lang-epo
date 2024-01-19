@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>eo</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Esperanto</title>
+    <title>Esperanto</title>
     <description>This is an fst-based speller for Esperanto. It is based
     on the normative subset of the morphological analyser for Esperanto.
     The source code can be found at:
