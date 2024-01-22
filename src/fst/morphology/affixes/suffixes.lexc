@@ -1,0 +1,56 @@
+LEXICON Noun_symbols_possibly_inflected ! ad hoc to make compile.
+# ;
+
+LEXICON Noun_symbols_never_inflected ! ad hoc to make compile.
+# ;
+
+! Prefixes can stack ('manĝ-eg-igi,' to feed someone greatly), so design decisions
+!   must be made as to which ones should combine ('manĝeble' is edible, but 'manĝ-et-end-i-o' is 'the land of mandatorily small food')
+!   and how order constraints ('manĝ-aĉ-et-o:' 'small, awful food' versus 'manĝ-et-aĉ-o:'awful, small food') are to be handled.
+
+! Additionally, should prefixes be constrained in any arbitrary way, like only directing to adjective/noun/adverb endings, or should
+!   all direct to root?
+
+LEXICON Suffix !add links to roots and so forth
++Suff:aĉ      R-pos;!'(pejorative)'
++Suff:ad      R-pos;!'repeated or continual action'
++Suff:aĵ      R-pos;!'concrete manifestation of'
++Suff:an      R-pos;!'member/inhabitant/participant of'
++Suff:ar      R-pos;!'unnumbered group of'
+!+Suff:ĉj      R-pos;!'(masculine affectionate)' ! This one changes the stem, so it'll require some special work. "patro" --> "paĉjo"
++Suff:ebl     R-pos;!'able to be, possible'
++Suff:ec      R-pos;!'abstract quality of'
++Suff:eg      R-pos;!'augmentative'
++Suff:ej      R-pos;!'place characterized by'
++Suff:em      R-pos;!'having propensity to, tendency of'
++Suff:end     R-pos;!'mandatory'
++Suff:er      R-pos;!'the smallest part of'
++Suff:estr    R-pos;!'boss/leader'
++Suff:et      R-pos;!'diminutive'
++Suff:i       R-pos;!"country of"
++Suff:id      R-pos;!'child of'
++Suff:ig      R-pos;!'causative, transitivizer'
++Suff:iĝ      R-pos;!'to become, intransitivizer'
++Suff:il      R-pos;!'tool'
++Suff:in      R-pos;!'female'
++Suff:ind     R-pos;!'worthy of'
++Suff:ing     R-pos;!'holder, sheath'
++Suff:ism     R-pos;!'doctrine, system of'
++Suff:ist     R-pos;!'professionally occupied doing'
+!+Suff:nj      R-pos;!'female affectionate' ! Like ĉj, this also needs some special help, as it modifies the root
++Suff:obl     R-pos;!'multiple'
++Suff:on      R-pos;!'fraction of'
++Suff:op      R-pos;!'group of specific number'
++Suff:uj      R-pos;!"country (see also 'i'), container of"
++Suff:ul      R-pos;!'person characterized by'
++Suff:um      R-pos;!'(undefined suffix, usage varies)'
+
+!Tests:
+!!€gt-desc: suffixes
+!!€ kirkano:    kirk+R+Suff+N+Sing+Nom
+!!€ manĝemaj:   manĝ+R+Suff+Adj+Plu+Nom
+!!€ germanujon: german+R+Suff+N+Sing+Acc
+!!€ kristismo:  krist+R+Suff+N+Sing+Nom
+!!€ kredeble:   kred+R+Suff+Adv
+
+

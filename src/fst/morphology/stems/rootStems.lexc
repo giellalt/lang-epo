@@ -1,0 +1,432 @@
+!!! Most Esperanto words start from roots and become all other parts of speech by their affixes
+!!! Example: manĝ- (-i, "to eat." -o, "food." -a, "like food" [adjectival])
+
+!!! mal-san-ul-ej-estr-aĉ-in-o-j-n. 
+!!! opposite-health-person-place-boss-detestable-female-noun-plural-accusative
+!!! (((opposite-health-person)-place)-(boss-detestable-female)-noun-plural-accusative)
+!!! "detestable hospital matrons (Acc)"
+!!! So, for the form of a stem:
+!!! (prefixes)+(stem)+(postfixes)+(another prefixes-stem-postfixes)+(grammatical ending)
+
+!prefixes.lexc
+!stems/roots.lexc
+!postfixes.lexc 
+!grammatical_endings.lexc (noun endings, adjective endings, adverb endings, verb endings
+
+! Lexicon containing lexical stems:
+LEXICON Stems
+
+!AAA
+afer        R; !'thing'
+aflikt      R; !'afflict'
+afrik       R; !"African"
+aktiv       R; !"active"
+akv         R; !'water'
+alfabet     R; !'alphabet'
+ali         R; !"other"
+alt     	R; !"high"
+amerik      R; !'American'
+amik        R; !'friend'
+angl        R; !'English'
+antikv      R; !'ancient, antique'
+aper        R; !'appear'
+april       R; !"April"
+are         R; !'area'
+art         R; !'art'
+artikol     R; !"article"
+asoci       R; !'associate, association'
+arab        R; !'Arabian'
+armen       R; !"Armenian"
+armilar     R; !'armaments'
+aŭgust      R; !"August (the month)"
+aŭstral     R; !'Australian'
+av          R; !'grandfather'
+az          R; !"Asian"
+
+!BBB
+babil       R; !'chat'
+baz         R; !'basic'
+berlin      R; !"Berlin"
+best        R; !'beast, animal'
+blank   	R; !"white"
+bibli       R; !'Bible'
+bon     	R; !"good"
+bonven      R; !"welcome"
+brak        R; !'arm'
+brazil      R; !'Brazilian'
+brit        R; !'British'
+brun        R; !'brown'
+brust       R; !'chest of a person or animal'
+bus         R; !'bus'
+buŝ         R; !'mouth'
+
+!CCC
+cel         R; !"target/goal"
+centr       R; !'center'
+
+!ĈĈĈ
+ĉef         R; !'chief, first, important'
+ĉefurb      R; !'capital city'
+ĉeĥ         R; !'Czech Republic'
+ĉiel        R; !"heaven"
+ĉili        R; !"Chilean"
+ĉin         R; !'Chinese'
+ĉokolad     R; !'chocolate'
+
+!DDD
+damaĝ       R; !'damage'
+dank        R; !"thank"
+decembr     R; !"December"
+dekstr      R; !'right (opposite of left)'
+demand      R; !'ask';
+dent        R; !'tooth';
+dev         R; !"need"
+dimanĉ      R; !"Sunday"
+di          R; !'god'
+dir         R; !"say"
+divers      R; !'diverse'
+dolor       R; !'hurt'
+dom         R; !'house, home'
+don         R; !"give"
+dorm        R; !"sleep"
+dosier      R; !'file, especially computer file'
+
+!EEE
+edz         R; !'husband/spouse'
+egipt       R; !"Egyptian"
+eklezi      R; !'church'
+ekonomi     R; !'economy'
+ekster      R; !'outside'
+ekzempl     R; !"example"
+ekzist      R; !"exist"
+elekt       R; !'choose';
+epok        R; !'epoch'
+esperant    R; !"Esperanto language, or 'the one who hopes'"
+est         R; !"be"
+eŭrop       R; !'European'
+evident 	R; !"obvious"
+evit        R; !"evade, avoid"
+evolu       R; !'evolution'
+
+!FFF
+fal         R; !"fall"
+famili      R; !'family'
+far         R; !"do/make"
+februar     R; !"February"
+fek         R; !'excrement, poop'
+fil         R; !'son/child'
+filozofi    R; !'philosophy'
+film        R; !'film, movie'
+fin         R; !'final'
+fingr       R; !"finger"
+flag        R; !'flag'
+fort        R; !'strong'
+franc       R; !'French'
+frat        R; !'brother'
+fraz        R; !'phrase'
+fru         R; !'early'
+
+!GGG
+genu        R; !'knee'
+geografi    R; !'geography'
+german      R; !'German'
+grandioz	R; !"sublime/magnificent"
+grand       R; !"large, grand"
+grav    	R; !"serious"
+grek        R; !'Greek'
+griz        R; !"gray/grey"
+grup        R; !'group'
+gugl        R; !"10 to the 100th power, or Google"
+
+!ĜĜĜ
+ĝarden      R; !'garden'
+ĝeneral     R; !'general, non-specific'
+ĝoj         R; !"joy/enjoy/rejoice"
+
+!HHH
+hav         R; !"have"
+hebre       R; !"Hebrew"
+help        R; !"help"
+hispan      R; !'Spain'
+histori     R; !"history"
+hom         R; !"human"
+
+!III
+ideal   	R; !"ideal"
+ide         R; !'idea'
+ig          R; !'to cause, or make something so'
+iĝ          R; !"to become"
+il          R; !'tool'
+imperi      R; !'empire'
+instru      R; !'teach'
+internaci   R; !'international'
+insul       R; !'island'
+ir          R; !"go"
+islam       R; !'Islam'
+ital        R; !'Italian'
+
+!JJJ
+januar      R; !"January"
+japan       R; !'Japanese'
+jar         R; !"year"
+jarcent     R; !'century'
+jesu        R; !'Jesus'
+jun         R; !"young"
+jung    	R; !"yoke/hitch/harness"
+juni        R; !"June"
+juli        R; !"July"
+
+!ĴĴĴ
+ĵaud        R; !"Thursday"
+ĵingl       R; !"jingle"
+
+!KKK
+kant        R; !"sing"
+kap         R; !"head"
+kategori    R; !"category"
+kelk        R; !'some, a few'
+kirk        R; !'church'
+kolor       R; !"color" 
+komenc      R; !'commence/begin'
+kon         R; !'know'
+konsist     R; !'consist, be made of'
+kongres     R; !'congress'
+konstru     R; !'make';
+kor         R; !'heart'
+koran       R; !'Koran/Quaran'
+korp        R; !'body'
+kred        R; !"believe"
+kresk       R; !'grow'
+krist       R; !'Christ'
+krokodil    R; !"(speak one's native language when it is expected one speak in Esperanto)"
+krur        R; !'leg'
+kub         R; !'Cuban'
+kultur      R; !'culture'
+
+!LLL
+labor       R; !'labor/work'
+land        R; !"country"
+lang        R; !'tongue'
+last        R; !'latest/last'
+leg         R; !'read';
+leĝ         R; !'law'
+lern        R; !'learn;
+liber   	R; !"free"
+libr        R; !"book"
+lig         R; !'fasten, link'
+ligil       R; !'web link'
+lingv       R; !'language'
+lip         R; !'lip'
+list        R; !'list'
+literatur   R; !'literature'
+loĝ         R; !'reside at"
+lok         R; !'location/place'
+long    	R; !"long"
+luks    	R; !"luxurious"
+lund        R; !"Monday"
+
+!MMM
+mahomet     R; !'Mohammed PBUH'
+maj         R; !"May (the month)"
+manĝ        R; !'eat';
+man         R; !"hand"
+mank        R; !'missing, lacking'
+map         R; !'map'
+mard        R; !"Tuesday"
+mar         R; !'ocean/sea'
+mart        R; !"March (the month)"
+membr       R; !'member'
+menton      R; !'chin'
+merkred     R; !"Wednesday"
+metro       R; !"metro (nominative 'metroo')""
+maten       R; !'morning'
+matenmanĝ   R; !'breakfast'
+milard      R; !"billion"
+milion      R; !"million"
+milit       R; !"war"
+modern      R; !'modern'
+mond        R; !"world"
+montr       R; !'show/reveal'
+mormon      R; !'Mormon'
+mort        R; !'death'
+mov         R; !'move'
+mult        R; !"much, many"
+muzik       R; !'music'
+
+!NNN
+naci        R; !'nation, people'
+nask        R; !"birth"
+naz         R; !'nose'
+nigr    	R; !"black"
+nokt        R; !'night'
+nom         R; !"name"
+nombr       R; !'number'
+nov         R; !'new'
+novembr     R; !"November"
+nord        R; !'north'
+
+!OOO
+oficial     R; !'official'
+oft         R; !"often"
+okaz        R; !"occur, happen"
+okcident    R; !'west'
+oktobr      R; !"October"
+okul        R; !'eye'
+onkl        R; !"uncle"
+oportun 	R; !"convenient"
+or          R; !'gold'
+orient      R; !'east'
+
+!PPP
+paĝ         R; !'page/sheet'
+pariz       R; !'Parisian'
+parol       R; !"speak"
+part        R; !"part"
+patr        R; !'father'
+pen         R; !'attempt, try'
+penis       R; !'penis'
+pens        R; !"think"
+person      R; !"person"
+pied        R; !'foot'
+piedfingr   R; !'toe'
+plat		R; !"flat/slab/sheet"
+plur        R; !'plural'
+politik     R; !'political
+popol       R; !'population'
+post        R; !'after'
+pov         R; !"can, be able to"
+preĝ        R; !'pray'
+prezidant   R; !"prezident"
+publik      R; !'public'
+
+!RRR
+rapid       R; !"quick"
+raz         R; !"shave"
+referenc    R; !'reference'
+reĝad       R; !"reign"
+region      R; !"region"
+regular     R; !"rule, regulation"
+reĝ         R; !'king, royal'
+religi      R; !'religion'
+respond     R; !'answer'
+respublik   R; !'republic'
+river       R; !'river'
+rom         R; !"Roman"
+romp        R; !'break';
+rus         R; !'Russian'
+
+!SSS
+sabat       R; !"Saturday"
+sam         R; !'same'
+san 		R; !"health"
+sankt       R; !'holy'
+sci         R; !"know"
+scienc      R; !'science'
+septembr    R; !"September"
+signif      R; !"signify, mean, represent"
+sinjor      R; !"lord"
+sistem      R; !'system'
+skrib       R; !'write'
+slovak      R; !'Slovakian'
+soci        R; !'societal'
+socialism   R; !'socialism'
+soviet      R; !'Soviet'
+stomak      R; !'stomach'
+strig       R; !'owl'
+sud         R; !'south'
+
+!ŜŜŜ
+ŝat         R; !'like';
+ŝtat        R; !'political state'
+
+!TTT
+tag         R; !'day'
+tagmanĝ     R; !'lunch'
+tek         R; !'capsule, shell, container'
+teori       R; !'theory'
+temp        R; !'time'
+ter         R; !'earth'
+tim         R; !'fear'
+teritor     R; !'territory' *needs country -i ending?
+tradici     R; !'tradition'
+traduk      R; !'translate'
+trov        R; !'find
+tut         R; !'whole, entire'
+
+!UUU
+universal   R; !'universal'
+universitat R; !'university'
+urb         R; !"city"
+uson        R; !'American'
+uz          R; !'use'
+
+!VVV
+vagin       R; !'vagina'
+ven         R; !"come"
+vendred     R; !"Friday"
+verd		R; !"green"
+verk        R; !'to create, to produce'
+vetur       R; !"travel/ride"
+vid         R; !'see';
+viv         R; !"life, live"
+vizaĝ       R; !'face'
+vol         R; !'want';
+vort        R; !'word'
+
+!ZZZ
+zo          R; !'animal'
+!END LEXICON Stem
+
+! Lexicon tags as rootcontaining POS tag only:
+LEXICON R
++R: R-pos;  ! goes straight to POS lexicon
++R: Suffix; ! goes to suffix lexicon
+
+! Lexicon containing inflectional suffixes and corresponding tags:
+LEXICON R-pos
++V:     V-suff;
++N:o    Number;
++Adj:a  Number;
++Adv:e       #;
+
+!Verbs
+LEXICON V-suff
++Past:is    #; !Past
++Pres:as    #; !Present
++Fut:os     #;  !Future
++Inf:i      #;  !Infinitive
++Imp:u      #;  !Imperative
++Cond:us    #;  !Conditional
+
+!Nouns
+LEXICON Number
++Sing: Case; !Singular
++Plu:j Case; !Plural
+
+LEXICON Case
++Nom:    #; !Nominative
++Acc:n   #; !Accusative
+
+! manĝ-o-j-n (mangx+R+N+Plu+Acc)
+
+!NEW Words to try:
+!   don+R+N+Plu+Acc (donojn) 'gifts'
+!   konstru+R+V+Imp (konstruu) 'build!'
+!   demand+R+N+Sing+Nom (demando) 'a question'
+
+!Example: $ echo don+R+N+Plu+Acc | hfst-lookup esperanto.hfst
+!Example to picture: hfst-fst2txt esperanto.hfst | python3 att2dot.py | dot -Tpng -o esperanto.lexc.png
+!\\wsl$\Ubuntu\home\simon\lang-epo\src\fst\stems\roots.lexc
+
+! INLINE LEXC TEST:
+
+!!€gt-desc: rootStems.lexc Noun, Adj, Verb, Adv
+!!€ konstrua: konstru+R+Adj+Sing+Nom
+!!€ konstruo: konstru+R+N+Sing+Nom
+!!€ konstrui: konstru+R+V+Inf
+!!€ konstruojn: konstru+R+N+Plu+Acc
+!!€ rapide: rapid+R+Adv
+!!€ lingvoj: lingv+R+N+Plu+Nom
+!!€ tempojn: temp+R+N+Plu+Acc
+!!€ germanio: german+R+Suff+N+Sing+Nom
+!
