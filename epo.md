@@ -172,19 +172,19 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-epo/blob/main/src/cg3/functions.cg3)</small>
 
-* rootStems.lexc Noun, Adj, Verb, Adv examples:*
-* *konstrua:* `konstru+R+Adj+Sing+Nom`
-* *konstruo:* `konstru+R+N+Sing+Nom`
-* *konstrui:* `konstru+R+V+Inf`
-* *konstruojn:* `konstru+R+N+Plu+Acc`
-* *rapide:* `rapid+R+Adv`
-* *lingvoj:* `lingv+R+N+Plu+Nom`
-* *tempojn:* `temp+R+N+Plu+Acc`
-* *germanio:* `german+R+Suff+N+Sing+Nom`
+* rootStems.lexc Noun, Adj, Verb, Adv examples:*
+* *konstrua:* `konstru+R+Adj+Sing+Nom`
+* *konstruo:* `konstru+R+N+Sing+Nom`
+* *konstrui:* `konstru+R+V+Inf`
+* *konstruojn:* `konstru+R+N+Plu+Acc`
+* *rapide:* `rapid+R+Adv`
+* *lingvoj:* `lingv+R+N+Plu+Nom`
+* *tempojn:* `temp+R+N+Plu+Acc`
+* *germanio:* `german+R+Suff+N+Sing+Nom`
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/rootStems.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/stems/rootStems.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/rootStems.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/morphology/stems/rootStems.lexc)</small>
 
 ---
 
@@ -351,7 +351,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-epo/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-epo/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -371,7 +371,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-epo/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -385,7 +385,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-epo/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
