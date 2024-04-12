@@ -13,6 +13,3 @@
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/rootStems.lexc](https://github.com/giellalt/lang-epo/blob/main/src/fst/morphology/stems/rootStems.lexc)</small>
-
----
-
