@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-epo%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-epo/main/badge.svg)](https://github.com/giellalt/lang-epo/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-epo?label=CI)](https://builds.giellalt.org/pipelines/lang-epo/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/espe1235)
 
 This page documents the work on the **Esperanto language model**. 
 
