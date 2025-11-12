@@ -1,6 +1,3 @@
-spellername = "Esperanto"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "9DE25003-A6A4-4115-8E2E-5720A6B66E43", kind = "nsis" },
     { value = "C3AB23AA-09BD-4A48-9FDC-CFF4B4403696", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Esperanto"
+version = "0.1.1"
+
+[package.grammar]
+name = "Esperanto"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Esperanto"
+version = "0.1.0"
