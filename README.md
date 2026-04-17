@@ -1,12 +1,12 @@
 The Esperanto morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-epo%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-epo%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-epo%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-epo%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-epo)](https://github.com/giellalt/lang-epo/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-epo/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-epo/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-epo/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-epo/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-epo/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-epo/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-epo?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-epo/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
